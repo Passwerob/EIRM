@@ -1,0 +1,32 @@
+# Python and build products
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# External checkouts and model weights
+Practical-RIFE/
+Practical-RIFE-lite-*/
+DVS-Voltmeter/
+third_party/
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Data and generated experiment artifacts
+data/
+outputs/
+runs/
+artifacts/
+*.h5
+*.hdf5
+*.mp4
+*.avi
+
+# Local configuration
+.env
+.vscode/

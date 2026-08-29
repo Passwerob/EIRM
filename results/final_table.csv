@@ -1,0 +1,5 @@
+method,coordinate_plane,window_ms,events_per_window,valid_coverage,edge_f1,edge_distance_px,rgb_flow_oracle_psnr_db,rgb_flow_oracle_ssim,notes
+DVS-Voltmeter 480-frame no-prism,reference,5.4279749478,19305.875,0.0220356431,0.3231602974,1.1560605019,36.7751918919,0.9646440207,matched output-frame protocol
+Raw AMI,prism_sensor,5.4279749478,62815.0,0.0652044429,0.5832040505,1.1645016819,,,raw sensor coordinates
+Project Compensated AMI,reference,5.4279749478,62815.0,0.1029824519,0.5919776230,0.8977026194,36.0440573058,0.9627770891,matched RGB-flow oracle with c=0.02
+DVS-Voltmeter 40-source-frame,native_source,33.3333333333,141351.0,,,,13.26,0.665,native source-frame protocol; not matched short window

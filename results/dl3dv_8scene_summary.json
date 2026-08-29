@@ -1,0 +1,204 @@
+{
+  "aggregate": {
+    "ami_compensated_edge_distance_20ms": {
+      "mean": 2.6354990154504776,
+      "std": 0.7969981743859472
+    },
+    "ami_coverage_20ms": {
+      "mean": 0.7303967210894051,
+      "std": 0.14840540690865228
+    },
+    "ami_events": {
+      "mean": 24483586.625,
+      "std": 7098701.442951819
+    },
+    "ami_gain_over_vanilla": {
+      "mean": 2.082960180464773,
+      "std": 0.7250079215147025
+    },
+    "ami_new_coverage_20ms": {
+      "mean": 0.24698975175220889,
+      "std": 0.21420537026115366
+    },
+    "ami_raw_edge_distance_20ms": {
+      "mean": 3.0648801028728485,
+      "std": 0.8025551056260477
+    },
+    "ami_to_direct": {
+      "mean": 3.3785367918952924,
+      "std": 0.8550998794598328
+    },
+    "direct_coverage_20ms": {
+      "mean": 0.38219961168138294,
+      "std": 0.1759989349129739
+    },
+    "direct_events": {
+      "mean": 8263206.25,
+      "std": 4896510.989323054
+    },
+    "valid_frame_fraction": {
+      "mean": 0.9865144118666649,
+      "std": 6.158268817746138e-06
+    },
+    "vanilla_coverage_20ms": {
+      "mean": 0.546313331451933,
+      "std": 0.23879600363290948
+    },
+    "vanilla_events": {
+      "mean": 14753802.25,
+      "std": 9833882.310402868
+    },
+    "vanilla_to_direct": {
+      "mean": 1.7057897164522342,
+      "std": 0.3442312611818468
+    }
+  },
+  "all_event_quality_valid": true,
+  "scene_count": 8,
+  "scenes": [
+    {
+      "ami_compensated_edge_distance_20ms": 1.745928406715393,
+      "ami_coverage_20ms": 0.5534462537162808,
+      "ami_events": 19106370,
+      "ami_gain_over_vanilla": 2.4048612347929077,
+      "ami_new_coverage_20ms": 0.29891170935275346,
+      "ami_raw_edge_distance_20ms": 2.3858816623687744,
+      "ami_to_direct": 4.030946078859525,
+      "direct_coverage_20ms": 0.17611761176117613,
+      "direct_events": 4739922,
+      "event_quality_valid": true,
+      "run": "dl3dv_00e3fa12_40to480_cuda",
+      "scene_id": "00e3fa12",
+      "valid_frame_fraction": 0.9865211248397827,
+      "vanilla_coverage_20ms": 0.26378092354690014,
+      "vanilla_events": 7944895,
+      "vanilla_to_direct": 1.676165768128674
+    },
+    {
+      "ami_compensated_edge_distance_20ms": 1.811734914779663,
+      "ami_coverage_20ms": 0.9601418679277149,
+      "ami_events": 31991208,
+      "ami_gain_over_vanilla": 2.85228011524952,
+      "ami_new_coverage_20ms": 0.18186117209930755,
+      "ami_raw_edge_distance_20ms": 2.2216684818267822,
+      "ami_to_direct": 4.5443141256779995,
+      "direct_coverage_20ms": 0.5595000844451951,
+      "direct_events": 7039832,
+      "event_quality_valid": true,
+      "run": "dl3dv_03780d41_40to480_cuda",
+      "scene_id": "03780d41",
+      "valid_frame_fraction": 0.9865100979804993,
+      "vanilla_coverage_20ms": 0.7915554804931599,
+      "vanilla_events": 11216012,
+      "vanilla_to_direct": 1.5932215427868166
+    },
+    {
+      "ami_compensated_edge_distance_20ms": 3.2660229206085205,
+      "ami_coverage_20ms": 0.8103011329755516,
+      "ami_events": 16735086,
+      "ami_gain_over_vanilla": 2.335892496177587,
+      "ami_new_coverage_20ms": 0.33527131782945735,
+      "ami_raw_edge_distance_20ms": 4.0475969314575195,
+      "ami_to_direct": 2.993855427312301,
+      "direct_coverage_20ms": 0.37097495527728086,
+      "direct_events": 5589811,
+      "event_quality_valid": true,
+      "run": "dl3dv_03f5c560_40to480_cuda",
+      "scene_id": "03f5c560",
+      "valid_frame_fraction": 0.9865161776542664,
+      "vanilla_coverage_20ms": 0.4814400715563506,
+      "vanilla_events": 7164322,
+      "vanilla_to_direct": 1.2816751764952339
+    },
+    {
+      "ami_compensated_edge_distance_20ms": 2.120377540588379,
+      "ami_coverage_20ms": 0.6027258105477017,
+      "ami_events": 31178505,
+      "ami_gain_over_vanilla": 1.145947405989858,
+      "ami_new_coverage_20ms": 0.07043088123254042,
+      "ami_raw_edge_distance_20ms": 2.296917676925659,
+      "ami_to_direct": 2.8577118474425642,
+      "direct_coverage_20ms": 0.385084229238974,
+      "direct_events": 10910304,
+      "event_quality_valid": true,
+      "run": "dl3dv_07dea22d_40to480_cuda",
+      "scene_id": "07dea22d",
+      "valid_frame_fraction": 0.9865197539329529,
+      "vanilla_coverage_20ms": 0.6043765343265893,
+      "vanilla_events": 27207623,
+      "vanilla_to_direct": 2.493754802799262
+    },
+    {
+      "ami_compensated_edge_distance_20ms": 2.178760051727295,
+      "ami_coverage_20ms": 0.6609873307121014,
+      "ami_events": 25447510,
+      "ami_gain_over_vanilla": 1.7562298082823757,
+      "ami_new_coverage_20ms": 0.08578577385916836,
+      "ami_raw_edge_distance_20ms": 2.4059247970581055,
+      "ami_to_direct": 3.171429614728937,
+      "direct_coverage_20ms": 0.417173041026252,
+      "direct_events": 8023987,
+      "event_quality_valid": true,
+      "run": "dl3dv_114adf5c_40to480_cuda",
+      "scene_id": "114adf5c",
+      "valid_frame_fraction": 0.9865188598632812,
+      "vanilla_coverage_20ms": 0.6834266650780412,
+      "vanilla_events": 14489852,
+      "vanilla_to_direct": 1.8058169835020919
+    },
+    {
+      "ami_compensated_edge_distance_20ms": 4.022781848907471,
+      "ami_coverage_20ms": 0.5486402235837902,
+      "ami_events": 35271770,
+      "ami_gain_over_vanilla": 1.024511730796808,
+      "ami_new_coverage_20ms": 0.023003332258411266,
+      "ami_raw_edge_distance_20ms": 3.8419694900512695,
+      "ami_to_direct": 1.7648246714411109,
+      "direct_coverage_20ms": 0.6144254541545738,
+      "direct_events": 19985991,
+      "event_quality_valid": true,
+      "run": "dl3dv_16633619_40to480_cuda",
+      "scene_id": "16633619",
+      "valid_frame_fraction": 0.9865010976791382,
+      "vanilla_coverage_20ms": 0.8064065355261744,
+      "vanilla_events": 34427883,
+      "vanilla_to_direct": 1.7226007456923202
+    },
+    {
+      "ami_compensated_edge_distance_20ms": 2.424699306488037,
+      "ami_coverage_20ms": 0.8786595052575837,
+      "ami_events": 15481874,
+      "ami_gain_over_vanilla": 3.228601529938318,
+      "ami_new_coverage_20ms": 0.2387472577350783,
+      "ami_raw_edge_distance_20ms": 3.0764966011047363,
+      "ami_to_direct": 4.374055722340978,
+      "direct_coverage_20ms": 0.4818064906573871,
+      "direct_events": 3539478,
+      "event_quality_valid": true,
+      "run": "dl3dv_17281837_40to480_cuda",
+      "scene_id": "17281837",
+      "valid_frame_fraction": 0.9865164160728455,
+      "vanilla_coverage_20ms": 0.6524699296467207,
+      "vanilla_events": 4795226,
+      "vanilla_to_direct": 1.3547833889630052
+    },
+    {
+      "ami_compensated_edge_distance_20ms": 3.5136871337890625,
+      "ami_coverage_20ms": 0.8282716439945165,
+      "ami_events": 20656370,
+      "ami_gain_over_vanilla": 1.91535712249081,
+      "ami_new_coverage_20ms": 0.7419065696509544,
+      "ami_raw_edge_distance_20ms": 4.242585182189941,
+      "ami_to_direct": 3.2911568473589243,
+      "direct_coverage_20ms": 0.052515026890224616,
+      "direct_events": 6276325,
+      "event_quality_valid": true,
+      "run": "dl3dv_1739cfd2_40to480_cuda",
+      "scene_id": "1739cfd2",
+      "valid_frame_fraction": 0.986511766910553,
+      "vanilla_coverage_20ms": 0.08705051144152694,
+      "vanilla_events": 10784605,
+      "vanilla_to_direct": 1.718299323250469
+    }
+  ]
+}

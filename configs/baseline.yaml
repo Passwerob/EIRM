@@ -1,0 +1,18 @@
+# Fixed-rotation reproduction baseline. External source roots and commands are
+# intentionally supplied at runtime because they are not vendored in this tree.
+dataset: dsec
+camera: left
+vfi: practical_rife
+interp_fps: 480
+prism_model: paper_simplified
+prism_angle_deg: 0.5
+rotation_policy: constant
+rpm: 720
+theta0: 0.0
+padding_mode: border
+event_simulator: dvs_voltmeter
+event_window_ms: 33
+compensate: true
+save_raw_events: true
+save_debug_video: true
+random_seed: 0
