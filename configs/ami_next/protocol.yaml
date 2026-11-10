@@ -1,0 +1,151 @@
+protocol_version: ami_next_pilot_v1
+project: AMI-Simulator
+scientific_scope: controlled_optical_excitation_under_camera_object_co_motion
+status: stage_0_frozen_stage_a_pending
+target_metric_policy:
+  primary:
+    - target_edge_f1
+    - target_edge_coverage
+    - downstream_task_utility
+  secondary:
+    - spatiotemporal_f1
+    - temporal_diversity
+    - event_bandwidth
+    - actuator_effort_proxy
+  diagnostic:
+    - event_density
+    - unique_pixel_ratio
+    - event_efficiency
+    - edge_event_efficiency
+    - temporal_overlap
+  prohibited_primary: event_count_or_global_event_efficiency_alone
+data:
+  current_pilot_root: data/comotion_controlled_v2
+  current_pilot_manifest: results/comotion_v2_learned/manifest.json
+  recommended_final_scenes:
+    train: 16
+    valid: 8
+    test: 12
+  current_pilot_split: scene_disjoint
+  conditions:
+    - camera_only
+    - object_only
+    - co_motion
+    - counter_motion
+  synthetic_status: available
+  real_prism_status: not_available_in_repository
+  timestamp_policy: explicit_seconds_or_declared_nominal_reparameterization
+  vfi_policy: practical_rife_for_research_debug_linear_only
+  leakage_policy: all_conditions_and_time_scales_from_one_source_stay_in_one_split
+optical_model:
+  source: ami_simulator.geometry.RotatingWedgePrism
+  model: paraxial_depth_independent_ray_deflection_wedge
+  projection: opencv_pinhole_positive_z
+  prism_angle_default_deg: 0.5
+  inverse_compensation: per_event_timestamp_phase
+  phase_source: command_integration_or_declared_imu_schedule
+  metric_space: reference_plane_after_inverse_prism_mapping
+event_model:
+  cpu: ami_simulator.events.ThresholdEventSimulator
+  cuda_reference: ami_simulator.events.CudaThresholdEventSimulator
+  cuda_compiled: ami_simulator.events.CompiledCudaThresholdEventSimulator
+  rule: deterministic_log_intensity_contrast_threshold
+  sensor_noise_calibrated: false
+  overflow_policy: compiled_backend_raises_on_buffer_overflow
+  endpoint_policy: event_times_include_interpolated_crossing_and_are_sorted
+rotation:
+  anchor_rpm: 180.0
+  diagnostic_rpm: [0.0, 90.0, 180.0, 360.0, 720.0, 1080.0]
+  residual_actions: [0.0, 180.0, 360.0]
+  phase_continuity: required
+  minimum_dwell_seconds: 0.025
+  rpm_effort_is_calibrated_energy: false
+controller:
+  inputs_allowed:
+    - causal_imu_features
+    - causal_rgb_optical_flow_features
+    - previous_generated_event_state
+    - command_phase_or_encoder_phase_if_available
+  inputs_forbidden:
+    - future_rgb
+    - future_events
+    - gt_target_edge
+    - gt_roi_at_deployment
+  current_architectures:
+    - causal_lstm_candidate_q
+    - anchor_residual_mlp
+    - anchor_residual_gru
+  candidate_local_observation:
+    representation: fixed_2x2_tiled_flow
+    dimensions: 32
+    gt_roi: forbidden
+    status: observability_diagnostic_only
+  selection_policy: validation_only_scene_level_group_objective
+  success_gate:
+    target_edge_f1_absolute_gain: 0.02
+    allowed_f1_loss_if_bandwidth_gain: 0.01
+    required_bandwidth_reduction_if_tradeoff: 0.20
+baselines:
+  - no_prism_or_0_rpm
+  - stopped_prism_if_optically_distinct
+  - fixed_180_rpm
+  - fixed_360_rpm
+  - validation_selected_best_fixed
+  - matched_constraint_random
+  - simple_causal_feedback
+  - learned_controller_if_gate_b_is_supported
+stage_a:
+  equal_cycle_rpms: [90.0, 180.0, 360.0, 720.0, 1080.0]
+  equal_time_rpms: [90.0, 180.0, 360.0, 720.0, 1080.0]
+  initial_phases: [0.0, 1.5707963267948966, 3.141592653589793, 4.71238898038469]
+  max_phase_step_deg_grid: [30.0, 15.0, 7.5, 3.75]
+  analytic_scene_types:
+    - constant_luminance
+    - finite_width_edge
+    - smooth_log_ramp
+    - sinusoidal_stripes
+    - multi_direction_edges_and_corners
+  required_checks:
+    - constant_luminance_has_zero_events
+    - endpoint_equal_periodic_signal_not_missed
+    - cpu_reference_event_order_and_crossing_count
+    - inverse_prism_round_trip
+    - cuda_reference_matches_cpu_when_gpu_available
+    - compiled_cuda_matches_cpu_when_toolchain_available
+    - high_rpm_overflow_is_explicit
+    - warp_invalid_border_is_not_counted_as_signal
+  status: not_run_in_this_round
+stage_b:
+  status: stateful_hindsight_headroom_exists_causal_gain_not_established
+  next: fair_local_motion_observation_and_off_policy_state_coverage
+  stateful_rollout_script: scripts/run_control_headroom_stateful.py
+  latest_validation_result: results/ami_next/control_headroom_stateful_valid.json
+stage_c:
+  status: not_started
+  default_task: event_only_reference_plane_gradient_reconstruction
+compute:
+  gpu_available_this_run: false
+  torch_version: 2.4.1+cu121
+  python_version: 3.8.5
+  gpu_budget_gpu_hours: 8
+  policy: single_gpu_only_when_available_no_paid_resources
+reproducibility:
+  scene_unit_of_analysis: true
+  paired_scene_bootstrap_ci: required_for_final
+  test_freeze_before_final_evaluation: required
+  run_metadata_required:
+    - run_id
+    - commit_or_worktree_hash
+    - config_hash
+    - scene_id
+    - split
+    - condition
+    - seed
+    - method
+    - phase_source
+    - window_ms
+    - event_count
+    - primary_metric
+    - runtime
+    - constraint_status
+    - simulated_or_real

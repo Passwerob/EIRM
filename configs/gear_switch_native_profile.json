@@ -1,0 +1,5 @@
+[
+  {"label": "compressed clock 360-favored (image-wide edge F1)", "rate": 1.0, "fps": 480, "start_frame": 0, "until_frame": 120},
+  {"label": "ramp to dilated clock", "rate": 1.0, "fps": 60, "ramp_s": 0.25, "duration_s": 0.25},
+  {"label": "dilated clock 0-favored (object edge F1)", "rate": 1.0, "fps": 15, "ramp_s": 0.25, "until_frame": 470}
+]

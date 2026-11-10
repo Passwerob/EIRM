@@ -1,0 +1,31 @@
+protocol: ami_next_stage_b_control_headroom_v1
+source_script: scripts/run_trajectory_sweep.py
+dataset_root: data/comotion_controlled_v2
+split: valid
+trajectory_families:
+  - constant_0
+  - constant_180
+  - constant_360
+  - constant_720
+  - constant_1080
+  - sinusoidal_speed
+  - triangular_speed
+  - chirp_speed
+configuration:
+  prism_angle_deg: 2.0
+  contrast_threshold: 0.2
+  base_rpm: 360.0
+  phase_policy: scheduled_rotation_continuous
+  event_efficiency_in_legacy_useful_score: 0.65
+primary_status: diagnostic_only_until_recomputed_without_global_efficiency_reward
+required_final_comparison:
+  - no_prism
+  - fixed_180
+  - validation_selected_best_fixed
+  - matched_constraint_random
+  - simple_causal_feedback
+  - bounded_hindsight_search
+success_gate:
+  target_edge_f1_absolute_gain: 0.02
+  allowed_f1_loss_for_bandwidth_tradeoff: 0.01
+  bandwidth_reduction_required: 0.2

@@ -1,0 +1,5 @@
+[
+  {"label": "dilated clock: 180 RPM fires a storm (144 deg/window), 0 stays sparse", "rate": 1.0, "fps": 7.5, "start_frame": 345, "until_frame": 375},
+  {"label": "native clock reference", "rate": 1.0, "fps": 60, "ramp_s": 0.2, "until_frame": 440},
+  {"label": "native calm tail", "rate": 1.0, "fps": 60, "ramp_s": 0.1, "until_frame": 470}
+]

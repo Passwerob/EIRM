@@ -1,0 +1,99 @@
+{
+  "architecture": "tiny_inverse_motion_gear",
+  "best_epoch": 75,
+  "best_validation_loss": 0.23632566630840302,
+  "candidate_rpm": [
+    360.0,
+    180.0
+  ],
+  "class_weight": [
+    1.1132075786590576,
+    0.9076923131942749
+  ],
+  "dataset": "EVEYES-co-motion-v2-plus-drive-stop-drive-train-valid",
+  "density_threshold": 0.38995466820987656,
+  "feature_dim": 4,
+  "feature_names": [
+    "lagged_visual_motion",
+    "lagged_imu_motion",
+    "previous_event_density",
+    "previous_temporal_overlap"
+  ],
+  "hidden_dim": 32,
+  "history": [
+    {
+      "epoch": 0,
+      "train_360_frac": 0.44915252923965454,
+      "train_acc": 0.3442796468734741,
+      "train_loss": 0.722173810005188,
+      "valid_acc": 0.3305084705352783,
+      "valid_loss": 0.7234602570533752,
+      "valid_pred_360_frac": 0.5185381174087524
+    },
+    {
+      "epoch": 25,
+      "train_360_frac": 0.44915252923965454,
+      "train_acc": 0.8183262944221497,
+      "train_loss": 0.35373303294181824,
+      "valid_acc": 0.8585805296897888,
+      "valid_loss": 0.3065280020236969,
+      "valid_pred_360_frac": 0.6525423526763916
+    },
+    {
+      "epoch": 50,
+      "train_360_frac": 0.44915252923965454,
+      "train_acc": 0.9030720591545105,
+      "train_loss": 0.24237200617790222,
+      "valid_acc": 0.9226694703102112,
+      "valid_loss": 0.23986321687698364,
+      "valid_pred_360_frac": 0.5609109997749329
+    },
+    {
+      "epoch": 100,
+      "train_360_frac": 0.44915252923965454,
+      "train_acc": 0.9433262944221497,
+      "train_loss": 0.14613507688045502,
+      "valid_acc": 0.9020127058029175,
+      "valid_loss": 0.24281565845012665,
+      "valid_pred_360_frac": 0.5561440587043762
+    },
+    {
+      "epoch": 200,
+      "train_360_frac": 0.44915252923965454,
+      "train_acc": 0.9841101765632629,
+      "train_loss": 0.0456000417470932,
+      "valid_acc": 0.8802965879440308,
+      "valid_loss": 0.39607465267181396,
+      "valid_pred_360_frac": 0.5323092937469482
+    }
+  ],
+  "imu_motion_bounds": [
+    0.0002822150725105154,
+    0.0026775735903401166
+  ],
+  "imu_threshold": 1.0,
+  "label_360_frac": 0.4491525423728814,
+  "motion_thresholds": [
+    1.263316631317145,
+    68.2791800498965
+  ],
+  "objective": "360 RPM iff teacher edge F1(360) >= F1(180) + margin; 180 RPM floor; storm brake refuses the upshift",
+  "quality_floor": true,
+  "storm_density": 0.75,
+  "storm_density_feature": "unique_pixel_ratio",
+  "storm_overlap": 0.65,
+  "teacher": "f1-argmax",
+  "train_360_frac_by_scene": {
+    "train/Scene_002/camera_only": 0.7244258872651357,
+    "train/Scene_002/co_motion": 0.6576200417536534,
+    "train/Scene_002/drive_stop_drive": 0.4154488517745303,
+    "train/Scene_002/object_only": 0.0
+  },
+  "train_accuracy": 0.9841101765632629,
+  "train_samples": 1888,
+  "upshift_margin": 0.0,
+  "use_temporal_overlap": false,
+  "valid_accuracy": 0.8802965879440308,
+  "valid_samples": 1888,
+  "window": 8
+}

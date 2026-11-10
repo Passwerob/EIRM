@@ -1,0 +1,29 @@
+{
+  "timestamp_policy": "The local evaluation export has no source timestamps. Generate a nominal timeline only by explicitly supplying an assumed FPS; do not report it as native capture timing.",
+  "scenes": [
+    {
+      "id": "screen-000088",
+      "rgb_dir": "/data/fcr/data/eval_data/DL3DV/screen-000088/images",
+      "transforms": "/data/fcr/data/eval_data/DL3DV/screen-000088/transforms.json",
+      "frame_count": 49,
+      "resolution": [960, 540],
+      "intrinsics": {"fx": 419.954724, "fy": 419.145724, "cx": 479.625, "cy": 269.625}
+    },
+    {
+      "id": "screen-000108",
+      "rgb_dir": "/data/fcr/data/eval_data/DL3DV/screen-000108/images",
+      "transforms": "/data/fcr/data/eval_data/DL3DV/screen-000108/transforms.json",
+      "frame_count": 49,
+      "resolution": [960, 540],
+      "intrinsics": {"fx": 420.056424, "fy": 421.095252, "cx": 479.625, "cy": 269.625}
+    },
+    {
+      "id": "screen-000118",
+      "rgb_dir": "/data/fcr/data/eval_data/DL3DV/screen-000118/images",
+      "transforms": "/data/fcr/data/eval_data/DL3DV/screen-000118/transforms.json",
+      "frame_count": 49,
+      "resolution": [960, 540],
+      "intrinsics": {"fx": 479.345630, "fy": 478.832021, "cx": 479.625, "cy": 269.625}
+    }
+  ]
+}

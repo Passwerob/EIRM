@@ -1,0 +1,16 @@
+[
+  {
+    "label": "camera pass-by, high clock (360-favored image-wide segment)",
+    "rate": 1.0,
+    "fps": 480.0,
+    "start_frame": 0,
+    "until_frame": 40
+  },
+  {
+    "label": "camera pass-by, native clock (0-favored target segment)",
+    "rate": 1.0,
+    "fps": 60.0,
+    "ramp_s": 0.25,
+    "until_frame": 84
+  }
+]

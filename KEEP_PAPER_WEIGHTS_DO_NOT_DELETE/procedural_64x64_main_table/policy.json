@@ -1,0 +1,86 @@
+{
+  "architecture": "tiny_inverse_motion_gear",
+  "best_epoch": 41,
+  "best_validation_loss": 0.49280256032943726,
+  "candidate_rpm": [
+    360.0,
+    180.0
+  ],
+  "class_weight": [
+    1.8770949840545654,
+    0.6815415620803833
+  ],
+  "density_threshold": 0.4498535156250002,
+  "feature_dim": 4,
+  "feature_names": [
+    "lagged_visual_motion",
+    "lagged_imu_motion",
+    "previous_event_density",
+    "previous_temporal_overlap"
+  ],
+  "hidden_dim": 32,
+  "history": [
+    {
+      "epoch": 0,
+      "train_360_frac": 0.2663690447807312,
+      "train_acc": 0.431547611951828,
+      "train_loss": 0.7219449281692505,
+      "valid_acc": 0.4360119104385376,
+      "valid_loss": 0.7141168117523193,
+      "valid_pred_360_frac": 0.5461309552192688
+    },
+    {
+      "epoch": 25,
+      "train_360_frac": 0.2663690447807312,
+      "train_acc": 0.773809552192688,
+      "train_loss": 0.452681303024292,
+      "valid_acc": 0.7276785969734192,
+      "valid_loss": 0.5289989709854126,
+      "valid_pred_360_frac": 0.3824404776096344
+    },
+    {
+      "epoch": 50,
+      "train_360_frac": 0.2663690447807312,
+      "train_acc": 0.863095223903656,
+      "train_loss": 0.3198600709438324,
+      "valid_acc": 0.788690447807312,
+      "valid_loss": 0.5067622065544128,
+      "valid_pred_360_frac": 0.318452388048172
+    },
+    {
+      "epoch": 100,
+      "train_360_frac": 0.2663690447807312,
+      "train_acc": 0.9657738208770752,
+      "train_loss": 0.10318947583436966,
+      "valid_acc": 0.7842261791229248,
+      "valid_loss": 0.8242830038070679,
+      "valid_pred_360_frac": 0.287202388048172
+    },
+    {
+      "epoch": 200,
+      "train_360_frac": 0.2663690447807312,
+      "train_acc": 1.0,
+      "train_loss": 0.0057458761148154736,
+      "valid_acc": 0.7842261791229248,
+      "valid_loss": 1.6651474237442017,
+      "valid_pred_360_frac": 0.2574404776096344
+    }
+  ],
+  "imu_threshold": 0.625,
+  "label_360_frac": 0.2663690476190476,
+  "motion_thresholds": [
+    14.446774106923629,
+    29.17671558738723
+  ],
+  "objective": "360 RPM iff teacher edge F1(360) >= F1(180) + margin; 180 RPM floor; storm brake refuses the upshift",
+  "quality_floor": true,
+  "storm_density": 0.75,
+  "storm_overlap": 0.65,
+  "teacher": "f1-argmax",
+  "train_accuracy": 1.0,
+  "train_samples": 1344,
+  "upshift_margin": 0.0,
+  "valid_accuracy": 0.7842261791229248,
+  "valid_samples": 672,
+  "window": 8
+}

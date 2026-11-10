@@ -17,6 +17,12 @@ third_party/
 *.pth
 *.ckpt
 
+# Small checkpoints kept in the repository
+!weights/practical_rife/train_log/flownet.pkl
+!weights/e2vid/E2VID_lightweight.pth.tar
+!KEEP_PAPER_WEIGHTS_DO_NOT_DELETE/**/*.pt
+!KEEP_PAPER_WEIGHTS_DO_NOT_DELETE/**/*.json
+
 # Data and generated experiment artifacts
 data/
 outputs/

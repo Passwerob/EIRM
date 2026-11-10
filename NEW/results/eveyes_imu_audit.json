@@ -1,0 +1,1745 @@
+{
+  "dataset": "NEW/data/eveyes_single_car_dataset_final_imu_v2",
+  "records": [
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.88028629801605,
+        "imu_accel_std_m_s2": 0.12931422399521508,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.0026183938293409675,
+        "imu_gyro_mean_rad_s": 0.0018435967658873005,
+        "imu_gyro_p90_rad_s": 0.00246177572443412,
+        "imu_rotational_energy_rad2_s": 3.6292485649475557e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.9784124140010992,
+        "flow_edge_weighted_px_s": 15.595156246029099,
+        "flow_iqr_px_s": 13.465027366853795,
+        "flow_low_motion_fraction": 0.02445650077160494,
+        "flow_magnitude_entropy": 0.5747796305633047,
+        "flow_max_px_s": 73.33882699465721,
+        "flow_mean_px_s": 14.712001119901405,
+        "flow_median_px_s": 13.475522196146635,
+        "flow_p90_px_s": 27.419346625653034,
+        "flow_spatial_consistency": 0.2094560837911515,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 91.15105396458208
+      },
+      "motion_config": {
+        "base_scene": "Scene_005",
+        "camera_motion_enabled": true,
+        "camera_path_m": 42.0,
+        "canonical_camera_trajectory_sha256": "733dc577ef7fc6474d6ffd64838eb6e1302e6ff66699592db2892902caab9777",
+        "canonical_traffic_trajectory_sha256": "b59813c4b530b7263d975437279c09d11da0135927695e82e27b077aca796759",
+        "causal_actor": "externally sourced textured vehicle; motion driven by lane-following trajectory",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "human-driven passenger car dash camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_MOVING_OBJ_MOVING",
+        "object_motion_enabled": true,
+        "object_visibility": {
+          "minimum_screen_area": 0.00037775698518061063,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": true,
+          "visible_any_sample": true
+        },
+        "passing_safety": {
+          "collision_free": true,
+          "ego_lane_curb_clearance_m": 0.30825740960628156,
+          "lane_center_separation_m": 2.4300000000000006,
+          "minimum_body_clearance_at_passing_m": 0.4327267485338533,
+          "minimum_center_distance_m": 2.430358685343735,
+          "opposite_directions": true,
+          "required_body_clearance_m": 0.2,
+          "required_traffic_curb_clearance_m": 0.3,
+          "traffic_clear_of_curb": true,
+          "traffic_curb_clearance_m": 0.31043644097835177,
+          "traffic_moving": true,
+          "valid": true,
+          "vehicle_width_m": 1.9972732514661473
+        },
+        "road_coordinate_system": {
+          "axis": "world_y",
+          "camera_lane_x": 7.72,
+          "camera_y_range_m": [
+            -100.0,
+            -58.0
+          ],
+          "main_carriageway_x_range_m": [
+            6.4131059646606445,
+            11.459073066711426
+          ],
+          "road_z": 5.949894428253174,
+          "traffic_lane_x": 10.15,
+          "traffic_y_range_m": [
+            -96.0,
+            -68.0
+          ]
+        },
+        "scene_name": "Cyberpunk Boulevard",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\19_city_cyberpunk\\19_city_cyberpunk\\19_city_cyberpunk.blend",
+        "sequence_id": "Scene_005_CAM_MOVING_OBJ_MOVING",
+        "speed_profile": "BRAKE",
+        "split": "test",
+        "traffic_path_m": 28.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_MOVING_OBJ_MOVING",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_005",
+      "sequence_id": "Scene_005_CAM_MOVING_OBJ_MOVING",
+      "split": "test"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.88026227375692,
+        "imu_accel_std_m_s2": 0.12940373733391783,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.0026330111738142445,
+        "imu_gyro_mean_rad_s": 0.001834934196462913,
+        "imu_gyro_p90_rad_s": 0.0024719487211098314,
+        "imu_rotational_energy_rad2_s": 3.6027756666549514e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.9782725367737931,
+        "flow_edge_weighted_px_s": 15.69797500584462,
+        "flow_iqr_px_s": 13.412492746198236,
+        "flow_low_motion_fraction": 0.02379050925925926,
+        "flow_magnitude_entropy": 0.5781537428314241,
+        "flow_max_px_s": 68.91661345624635,
+        "flow_mean_px_s": 14.905046213346935,
+        "flow_median_px_s": 13.67615308036672,
+        "flow_p90_px_s": 27.70163824285671,
+        "flow_spatial_consistency": 0.19846409417647604,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 91.75925629555773
+      },
+      "motion_config": {
+        "base_scene": "Scene_005",
+        "camera_motion_enabled": true,
+        "camera_path_m": 42.0,
+        "canonical_camera_trajectory_sha256": "733dc577ef7fc6474d6ffd64838eb6e1302e6ff66699592db2892902caab9777",
+        "canonical_traffic_trajectory_sha256": null,
+        "causal_actor": "externally sourced textured vehicle; stationary in opposing lane",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "human-driven passenger car dash camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_MOVING_OBJ_STATIC",
+        "object_motion_enabled": false,
+        "object_visibility": {
+          "minimum_screen_area": 0.0003727946779008562,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": true,
+          "visible_any_sample": true
+        },
+        "passing_safety": {
+          "collision_free": true,
+          "ego_lane_curb_clearance_m": 0.30825740960628156,
+          "lane_center_separation_m": 2.4300000000000006,
+          "minimum_body_clearance_at_passing_m": 0.4327267485338533,
+          "minimum_center_distance_m": 2.4301389294663673,
+          "opposite_directions": null,
+          "required_body_clearance_m": 0.2,
+          "required_traffic_curb_clearance_m": 0.3,
+          "traffic_clear_of_curb": true,
+          "traffic_curb_clearance_m": 0.31043644097835177,
+          "traffic_moving": false,
+          "valid": true,
+          "vehicle_width_m": 1.9972732514661473
+        },
+        "road_coordinate_system": {
+          "axis": "world_y",
+          "camera_lane_x": 7.72,
+          "camera_y_range_m": [
+            -100.0,
+            -58.0
+          ],
+          "main_carriageway_x_range_m": [
+            6.4131059646606445,
+            11.459073066711426
+          ],
+          "road_z": 5.949894428253174,
+          "traffic_lane_x": 10.15,
+          "traffic_y_range_m": [
+            -96.0,
+            -68.0
+          ]
+        },
+        "scene_name": "Cyberpunk Boulevard",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\19_city_cyberpunk\\19_city_cyberpunk\\19_city_cyberpunk.blend",
+        "sequence_id": "Scene_005_CAM_MOVING_OBJ_STATIC",
+        "speed_profile": "BRAKE",
+        "split": "test",
+        "traffic_path_m": 0.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_MOVING_OBJ_STATIC",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_005",
+      "sequence_id": "Scene_005_CAM_MOVING_OBJ_STATIC",
+      "split": "test"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.806675367921198,
+        "imu_accel_std_m_s2": 0.010640115018444711,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.002648409198869871,
+        "imu_gyro_mean_rad_s": 0.0018251034953795727,
+        "imu_gyro_p90_rad_s": 0.0024459103799315224,
+        "imu_rotational_energy_rad2_s": 3.5779766520956324e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.452694224195729,
+        "flow_edge_weighted_px_s": 0.6406316442351121,
+        "flow_iqr_px_s": 0.019736743628154974,
+        "flow_low_motion_fraction": 0.9574375482253087,
+        "flow_magnitude_entropy": 0.05805598319929761,
+        "flow_max_px_s": 39.06183553595035,
+        "flow_mean_px_s": 0.8099359937297582,
+        "flow_median_px_s": 0.006262510728432823,
+        "flow_p90_px_s": 1.5164331828503879,
+        "flow_spatial_consistency": 0.6603327992300287,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 25.61979057496503
+      },
+      "motion_config": {
+        "base_scene": "Scene_005",
+        "camera_motion_enabled": false,
+        "camera_path_m": 0.0,
+        "canonical_camera_trajectory_sha256": "54e51ad4542135158fe5cd4227d87ce96b6cc14a5282606ff70de2426129c4b7",
+        "canonical_traffic_trajectory_sha256": "ae39450163a13594d0494da6a5676397ba8f981a60fbd3311ad79a8df2502109",
+        "causal_actor": "externally sourced textured vehicle; motion driven by lane-following trajectory",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "stationary dash camera in traffic lane",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_STATIC_OBJ_MOVING",
+        "object_motion_enabled": true,
+        "object_visibility": {
+          "minimum_screen_area": 0.00035089610696648066,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": true,
+          "visible_any_sample": true
+        },
+        "passing_safety": null,
+        "road_coordinate_system": {
+          "axis": "world_y",
+          "camera_lane_x": 7.72,
+          "camera_y_range_m": [
+            -100.0,
+            -58.0
+          ],
+          "main_carriageway_x_range_m": [
+            6.4131059646606445,
+            11.459073066711426
+          ],
+          "road_z": 5.949894428253174,
+          "traffic_lane_x": 10.15,
+          "traffic_y_range_m": [
+            -96.0,
+            -68.0
+          ]
+        },
+        "scene_name": "Cyberpunk Boulevard",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\19_city_cyberpunk\\19_city_cyberpunk\\19_city_cyberpunk.blend",
+        "sequence_id": "Scene_005_CAM_STATIC_OBJ_MOVING",
+        "speed_profile": "BRAKE",
+        "split": "test",
+        "traffic_path_m": 28.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_STATIC_OBJ_MOVING",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_005",
+      "sequence_id": "Scene_005_CAM_STATIC_OBJ_MOVING",
+      "split": "test"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.80675690181301,
+        "imu_accel_std_m_s2": 0.01061892573826175,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.002692582403567252,
+        "imu_gyro_mean_rad_s": 0.001830560703714348,
+        "imu_gyro_p90_rad_s": 0.002402610470477328,
+        "imu_rotational_energy_rad2_s": 3.5943007252615193e-06
+      },
+      "imu_nonzero_gyro_fraction": 0.9997500312460942,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.9693544063653277,
+        "flow_edge_weighted_px_s": 14.173181128667496,
+        "flow_iqr_px_s": 11.263528436520229,
+        "flow_low_motion_fraction": 0.021516203703703704,
+        "flow_magnitude_entropy": 0.5432943725204197,
+        "flow_max_px_s": 80.92122457847357,
+        "flow_mean_px_s": 13.70402919031237,
+        "flow_median_px_s": 12.414506230028119,
+        "flow_p90_px_s": 25.243205824813792,
+        "flow_spatial_consistency": 0.24553330287138014,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 73.87658819908287
+      },
+      "motion_config": {
+        "base_scene": "Scene_001",
+        "camera_motion_enabled": true,
+        "camera_path_m": 30.0,
+        "canonical_camera_trajectory_sha256": "772ba36c549a1c332184b5c8da1f8f5c97f7c3f7dc49a3907df7eb6ab383d068",
+        "canonical_traffic_trajectory_sha256": "258e24247a81951baed80abe92ec339e0600c9fcb8d608e5df0a02e57a528461",
+        "causal_actor": "externally sourced textured vehicle; motion driven by lane-following trajectory",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "human-driven passenger car dash camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_MOVING_OBJ_MOVING",
+        "object_motion_enabled": true,
+        "object_visibility": {
+          "minimum_screen_area": 0.0,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": false,
+          "visible_any_sample": true
+        },
+        "passing_safety": {
+          "collision_free": true,
+          "ego_lane_curb_clearance_m": 0.04606533196956342,
+          "lane_center_separation_m": 2.2,
+          "minimum_body_clearance_at_passing_m": 0.20272674853385286,
+          "minimum_center_distance_m": 2.200776382353598,
+          "opposite_directions": true,
+          "required_body_clearance_m": 0.2,
+          "required_traffic_curb_clearance_m": 0.3,
+          "traffic_clear_of_curb": true,
+          "traffic_curb_clearance_m": 0.5754247918465772,
+          "traffic_moving": true,
+          "valid": true,
+          "vehicle_width_m": 1.9972732514661473
+        },
+        "road_coordinate_system": {
+          "axis": "world_x",
+          "camera_lane_y": -3.1,
+          "camera_x_range_m": [
+            -16.0,
+            14.0
+          ],
+          "main_carriageway_y_range_m": [
+            -4.144701957702637,
+            0.6740614175796509
+          ],
+          "traffic_lane_y": -0.9,
+          "traffic_x_range_m": [
+            -14.0,
+            12.0
+          ]
+        },
+        "scene_name": "Brick Downtown",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\14_city_blocks\\14_city_blocks.blend",
+        "sequence_id": "Scene_001_CAM_MOVING_OBJ_MOVING",
+        "speed_profile": "CRUISE",
+        "split": "train",
+        "traffic_path_m": 26.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_MOVING_OBJ_MOVING",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_001",
+      "sequence_id": "Scene_001_CAM_MOVING_OBJ_MOVING",
+      "split": "train"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.806731723036378,
+        "imu_accel_std_m_s2": 0.010632970265066446,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.0026754338522637657,
+        "imu_gyro_mean_rad_s": 0.001842256098125965,
+        "imu_gyro_p90_rad_s": 0.0024538642956435136,
+        "imu_rotational_energy_rad2_s": 3.6208022009847123e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.9692462430909615,
+        "flow_edge_weighted_px_s": 14.55431274322255,
+        "flow_iqr_px_s": 11.265560977950235,
+        "flow_low_motion_fraction": 0.021336323302469137,
+        "flow_magnitude_entropy": 0.552399417314227,
+        "flow_max_px_s": 86.04422401318475,
+        "flow_mean_px_s": 14.08811046311538,
+        "flow_median_px_s": 12.793553637352904,
+        "flow_p90_px_s": 25.62531101984426,
+        "flow_spatial_consistency": 0.2574473804795895,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 80.47426798192095
+      },
+      "motion_config": {
+        "base_scene": "Scene_001",
+        "camera_motion_enabled": true,
+        "camera_path_m": 30.0,
+        "canonical_camera_trajectory_sha256": "772ba36c549a1c332184b5c8da1f8f5c97f7c3f7dc49a3907df7eb6ab383d068",
+        "canonical_traffic_trajectory_sha256": null,
+        "causal_actor": "externally sourced textured vehicle; stationary in opposing lane",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "human-driven passenger car dash camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_MOVING_OBJ_STATIC",
+        "object_motion_enabled": false,
+        "object_visibility": {
+          "minimum_screen_area": 0.0,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": false,
+          "visible_any_sample": true
+        },
+        "passing_safety": {
+          "collision_free": true,
+          "ego_lane_curb_clearance_m": 0.04606533196956342,
+          "lane_center_separation_m": 2.2,
+          "minimum_body_clearance_at_passing_m": 0.20272674853385286,
+          "minimum_center_distance_m": 2.200222790425343,
+          "opposite_directions": null,
+          "required_body_clearance_m": 0.2,
+          "required_traffic_curb_clearance_m": 0.3,
+          "traffic_clear_of_curb": true,
+          "traffic_curb_clearance_m": 0.5754247918465772,
+          "traffic_moving": false,
+          "valid": true,
+          "vehicle_width_m": 1.9972732514661473
+        },
+        "road_coordinate_system": {
+          "axis": "world_x",
+          "camera_lane_y": -3.1,
+          "camera_x_range_m": [
+            -16.0,
+            14.0
+          ],
+          "main_carriageway_y_range_m": [
+            -4.144701957702637,
+            0.6740614175796509
+          ],
+          "traffic_lane_y": -0.9,
+          "traffic_x_range_m": [
+            -14.0,
+            12.0
+          ]
+        },
+        "scene_name": "Brick Downtown",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\14_city_blocks\\14_city_blocks.blend",
+        "sequence_id": "Scene_001_CAM_MOVING_OBJ_STATIC",
+        "speed_profile": "CRUISE",
+        "split": "train",
+        "traffic_path_m": 0.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_MOVING_OBJ_STATIC",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_001",
+      "sequence_id": "Scene_001_CAM_MOVING_OBJ_STATIC",
+      "split": "train"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.806703875659633,
+        "imu_accel_std_m_s2": 0.01064011154048539,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.002625887593305005,
+        "imu_gyro_mean_rad_s": 0.001850377584719527,
+        "imu_gyro_p90_rad_s": 0.0024699383643907334,
+        "imu_rotational_energy_rad2_s": 3.644440307328597e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.5374594099207778,
+        "flow_edge_weighted_px_s": 0.8104943939044011,
+        "flow_iqr_px_s": 0.012144891738345886,
+        "flow_low_motion_fraction": 0.9482508680555555,
+        "flow_magnitude_entropy": 0.07394210095718959,
+        "flow_max_px_s": 31.94118072658639,
+        "flow_mean_px_s": 0.7825403194771132,
+        "flow_median_px_s": 0.0035551549922846416,
+        "flow_p90_px_s": 1.4399739165007768,
+        "flow_spatial_consistency": 0.7360522331054998,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 14.929385472142691
+      },
+      "motion_config": {
+        "base_scene": "Scene_001",
+        "camera_motion_enabled": false,
+        "camera_path_m": 0.0,
+        "canonical_camera_trajectory_sha256": "35d5006692e224ee2b40644d88c4cfcf7e07fe1c72b08109d1ec2938d8fa6428",
+        "canonical_traffic_trajectory_sha256": "a741cec6e49cece3929041d8323fff50a80e1c0e36c3c4a26111661ecb58a084",
+        "causal_actor": "externally sourced textured vehicle; motion driven by lane-following trajectory",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "fixed roadside camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_STATIC_OBJ_MOVING",
+        "object_motion_enabled": true,
+        "object_visibility": {
+          "minimum_screen_area": 0.01509592101373336,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": true,
+          "visible_any_sample": true
+        },
+        "passing_safety": null,
+        "road_coordinate_system": {
+          "axis": "world_x",
+          "camera_lane_y": -3.1,
+          "camera_x_range_m": [
+            -16.0,
+            14.0
+          ],
+          "main_carriageway_y_range_m": [
+            -4.144701957702637,
+            0.6740614175796509
+          ],
+          "traffic_lane_y": -0.9,
+          "traffic_x_range_m": [
+            -14.0,
+            12.0
+          ]
+        },
+        "scene_name": "Brick Downtown",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\14_city_blocks\\14_city_blocks.blend",
+        "sequence_id": "Scene_001_CAM_STATIC_OBJ_MOVING",
+        "speed_profile": "CRUISE",
+        "split": "train",
+        "traffic_path_m": 26.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_STATIC_OBJ_MOVING",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_001",
+      "sequence_id": "Scene_001_CAM_STATIC_OBJ_MOVING",
+      "split": "train"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.84579020305817,
+        "imu_accel_std_m_s2": 0.08784703903354116,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.0026374451361292693,
+        "imu_gyro_mean_rad_s": 0.001853870589791377,
+        "imu_gyro_p90_rad_s": 0.0024670160116211917,
+        "imu_rotational_energy_rad2_s": 3.6574005558487104e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.9606178074357176,
+        "flow_edge_weighted_px_s": 15.231866472035964,
+        "flow_iqr_px_s": 13.278042213303827,
+        "flow_low_motion_fraction": 0.032778260030864204,
+        "flow_magnitude_entropy": 0.5847855094656924,
+        "flow_max_px_s": 65.63437381425763,
+        "flow_mean_px_s": 14.66610666306346,
+        "flow_median_px_s": 13.365583196031832,
+        "flow_p90_px_s": 27.52092406786781,
+        "flow_spatial_consistency": 0.24127658057935453,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 96.26346631696155
+      },
+      "motion_config": {
+        "base_scene": "Scene_002",
+        "camera_motion_enabled": true,
+        "camera_path_m": 30.0,
+        "canonical_camera_trajectory_sha256": "4f3e5c369197e2263a7d7971465573294f35e8486c7fb5de804eb42d81b0258a",
+        "canonical_traffic_trajectory_sha256": "4677adb759f8102cbe66de93d036a6996f06565317b7920c01c9edfbf916e3ba",
+        "causal_actor": "externally sourced textured vehicle; motion driven by lane-following trajectory",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "human-driven passenger car dash camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_MOVING_OBJ_MOVING",
+        "object_motion_enabled": true,
+        "object_visibility": {
+          "minimum_screen_area": 0.0,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": false,
+          "visible_any_sample": true
+        },
+        "passing_safety": {
+          "collision_free": true,
+          "ego_lane_curb_clearance_m": 2.351363374266926,
+          "lane_center_separation_m": 3.0,
+          "minimum_body_clearance_at_passing_m": 1.0027267485338527,
+          "minimum_center_distance_m": 3.0003292841052125,
+          "opposite_directions": true,
+          "required_body_clearance_m": 0.2,
+          "required_traffic_curb_clearance_m": 0.3,
+          "traffic_clear_of_curb": true,
+          "traffic_curb_clearance_m": 1.1513633742669263,
+          "traffic_moving": true,
+          "valid": true,
+          "vehicle_width_m": 1.9972732514661473
+        },
+        "road_coordinate_system": {
+          "axis": "world_x",
+          "camera_lane_y": -3.4,
+          "camera_x_range_m": [
+            -28.0,
+            2.0
+          ],
+          "main_carriageway_y_range_m": [
+            -6.75,
+            1.75
+          ],
+          "traffic_lane_y": -0.4,
+          "traffic_x_range_m": [
+            -26.0,
+            0.0
+          ]
+        },
+        "scene_name": "Residential Avenue",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\14_city_blocks\\14_city_blocks.blend",
+        "sequence_id": "Scene_002_CAM_MOVING_OBJ_MOVING",
+        "speed_profile": "ACCELERATE",
+        "split": "train",
+        "traffic_path_m": 26.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_MOVING_OBJ_MOVING",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_002",
+      "sequence_id": "Scene_002_CAM_MOVING_OBJ_MOVING",
+      "split": "train"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.845721004007128,
+        "imu_accel_std_m_s2": 0.08776757654985282,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.0026567023722393066,
+        "imu_gyro_mean_rad_s": 0.0018533842801562016,
+        "imu_gyro_p90_rad_s": 0.0024313010477611686,
+        "imu_rotational_energy_rad2_s": 3.6577033610735084e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.9622008472148759,
+        "flow_edge_weighted_px_s": 15.189066054727142,
+        "flow_iqr_px_s": 13.209403221748234,
+        "flow_low_motion_fraction": 0.03249059606481482,
+        "flow_magnitude_entropy": 0.5853746414475332,
+        "flow_max_px_s": 66.82781667193323,
+        "flow_mean_px_s": 14.648003340933103,
+        "flow_median_px_s": 13.27300226036673,
+        "flow_p90_px_s": 27.42619693301373,
+        "flow_spatial_consistency": 0.2046739784189899,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 97.51593345482077
+      },
+      "motion_config": {
+        "base_scene": "Scene_002",
+        "camera_motion_enabled": true,
+        "camera_path_m": 30.0,
+        "canonical_camera_trajectory_sha256": "4f3e5c369197e2263a7d7971465573294f35e8486c7fb5de804eb42d81b0258a",
+        "canonical_traffic_trajectory_sha256": null,
+        "causal_actor": "externally sourced textured vehicle; stationary in opposing lane",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "human-driven passenger car dash camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_MOVING_OBJ_STATIC",
+        "object_motion_enabled": false,
+        "object_visibility": {
+          "minimum_screen_area": 0.0,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": false,
+          "visible_any_sample": true
+        },
+        "passing_safety": {
+          "collision_free": true,
+          "ego_lane_curb_clearance_m": 2.351363374266926,
+          "lane_center_separation_m": 3.0,
+          "minimum_body_clearance_at_passing_m": 1.0027267485338527,
+          "minimum_center_distance_m": 3.000094569432904,
+          "opposite_directions": null,
+          "required_body_clearance_m": 0.2,
+          "required_traffic_curb_clearance_m": 0.3,
+          "traffic_clear_of_curb": true,
+          "traffic_curb_clearance_m": 1.1513633742669263,
+          "traffic_moving": false,
+          "valid": true,
+          "vehicle_width_m": 1.9972732514661473
+        },
+        "road_coordinate_system": {
+          "axis": "world_x",
+          "camera_lane_y": -3.4,
+          "camera_x_range_m": [
+            -28.0,
+            2.0
+          ],
+          "main_carriageway_y_range_m": [
+            -6.75,
+            1.75
+          ],
+          "traffic_lane_y": -0.4,
+          "traffic_x_range_m": [
+            -26.0,
+            0.0
+          ]
+        },
+        "scene_name": "Residential Avenue",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\14_city_blocks\\14_city_blocks.blend",
+        "sequence_id": "Scene_002_CAM_MOVING_OBJ_STATIC",
+        "speed_profile": "ACCELERATE",
+        "split": "train",
+        "traffic_path_m": 0.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_MOVING_OBJ_STATIC",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_002",
+      "sequence_id": "Scene_002_CAM_MOVING_OBJ_STATIC",
+      "split": "train"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.806622513110943,
+        "imu_accel_std_m_s2": 0.010612573633537679,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.0026533540367765177,
+        "imu_gyro_mean_rad_s": 0.001850825295760798,
+        "imu_gyro_p90_rad_s": 0.002391963242738307,
+        "imu_rotational_energy_rad2_s": 3.649592890842474e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.5598035983217444,
+        "flow_edge_weighted_px_s": 1.3392493395964569,
+        "flow_iqr_px_s": 0.9833224423247369,
+        "flow_low_motion_fraction": 0.8904834587191358,
+        "flow_magnitude_entropy": 0.12769081203805976,
+        "flow_max_px_s": 42.03224080839814,
+        "flow_mean_px_s": 1.7012270604134456,
+        "flow_median_px_s": 0.01755884893160443,
+        "flow_p90_px_s": 5.435348991211323,
+        "flow_spatial_consistency": 0.3663333520190687,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 33.82855151815925
+      },
+      "motion_config": {
+        "base_scene": "Scene_002",
+        "camera_motion_enabled": false,
+        "camera_path_m": 0.0,
+        "canonical_camera_trajectory_sha256": "35d5006692e224ee2b40644d88c4cfcf7e07fe1c72b08109d1ec2938d8fa6428",
+        "canonical_traffic_trajectory_sha256": "f73faaf89bef56fad6d809b20080aad06385b9c2f6aeb9d375eaec9c1e0f838f",
+        "causal_actor": "externally sourced textured vehicle; motion driven by lane-following trajectory",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "fixed roadside camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_STATIC_OBJ_MOVING",
+        "object_motion_enabled": true,
+        "object_visibility": {
+          "minimum_screen_area": 0.008345898143303998,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": true,
+          "visible_any_sample": true
+        },
+        "passing_safety": null,
+        "road_coordinate_system": {
+          "axis": "world_x",
+          "camera_lane_y": -3.4,
+          "camera_x_range_m": [
+            -28.0,
+            2.0
+          ],
+          "main_carriageway_y_range_m": [
+            -6.75,
+            1.75
+          ],
+          "traffic_lane_y": -0.4,
+          "traffic_x_range_m": [
+            -26.0,
+            0.0
+          ]
+        },
+        "scene_name": "Residential Avenue",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\14_city_blocks\\14_city_blocks.blend",
+        "sequence_id": "Scene_002_CAM_STATIC_OBJ_MOVING",
+        "speed_profile": "ACCELERATE",
+        "split": "train",
+        "traffic_path_m": 26.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_STATIC_OBJ_MOVING",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_002",
+      "sequence_id": "Scene_002_CAM_STATIC_OBJ_MOVING",
+      "split": "train"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 10.689908823145668,
+        "imu_accel_std_m_s2": 0.7870272729600679,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.00266371414196876,
+        "imu_gyro_mean_rad_s": 0.0018487048704522023,
+        "imu_gyro_p90_rad_s": 0.0024057880340454057,
+        "imu_rotational_energy_rad2_s": 3.6407151997167134e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.964786334118096,
+        "flow_edge_weighted_px_s": 15.090382496419412,
+        "flow_iqr_px_s": 12.768694300914966,
+        "flow_low_motion_fraction": 0.026298225308641975,
+        "flow_magnitude_entropy": 0.5849618803871333,
+        "flow_max_px_s": 83.9379444745492,
+        "flow_mean_px_s": 14.879768301925008,
+        "flow_median_px_s": 13.245726204482786,
+        "flow_p90_px_s": 27.71015782712268,
+        "flow_spatial_consistency": 0.2117993090971928,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 101.97308914783997
+      },
+      "motion_config": {
+        "base_scene": "Scene_003",
+        "camera_motion_enabled": true,
+        "camera_path_m": 30.0,
+        "canonical_camera_trajectory_sha256": "5138973f6536beb9c7a5ff0d51a1c486834b7b844514062ef912df1a5483384e",
+        "canonical_traffic_trajectory_sha256": "12d839156711643f1279bbf56444dc6dbf21d87b57d2dd1a80867715a6b421c8",
+        "causal_actor": "externally sourced textured vehicle; motion driven by lane-following trajectory",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "human-driven passenger car dash camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_MOVING_OBJ_MOVING",
+        "object_motion_enabled": true,
+        "object_visibility": {
+          "minimum_screen_area": 0.0,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": false,
+          "visible_any_sample": true
+        },
+        "passing_safety": {
+          "collision_free": true,
+          "ego_lane_curb_clearance_m": 0.1513633742669267,
+          "lane_center_separation_m": 2.6,
+          "minimum_body_clearance_at_passing_m": 0.6027267485338528,
+          "minimum_center_distance_m": 2.600099984598637,
+          "opposite_directions": true,
+          "required_body_clearance_m": 0.2,
+          "required_traffic_curb_clearance_m": 0.3,
+          "traffic_clear_of_curb": true,
+          "traffic_curb_clearance_m": 1.2513633742669263,
+          "traffic_moving": true,
+          "valid": true,
+          "vehicle_width_m": 1.9972732514661473
+        },
+        "road_coordinate_system": {
+          "axis": "world_x",
+          "camera_lane_y": -3.1,
+          "camera_x_range_m": [
+            -10.0,
+            20.0
+          ],
+          "main_carriageway_y_range_m": [
+            -4.25,
+            1.75
+          ],
+          "traffic_lane_y": -0.5,
+          "traffic_x_range_m": [
+            -8.0,
+            18.0
+          ]
+        },
+        "scene_name": "Market Street",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\14_city_blocks\\14_city_blocks.blend",
+        "sequence_id": "Scene_003_CAM_MOVING_OBJ_MOVING",
+        "speed_profile": "STOP_AND_GO",
+        "split": "train",
+        "traffic_path_m": 26.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_MOVING_OBJ_MOVING",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_003",
+      "sequence_id": "Scene_003_CAM_MOVING_OBJ_MOVING",
+      "split": "train"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 10.689832414142375,
+        "imu_accel_std_m_s2": 0.7871478110205286,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.0026405470572501625,
+        "imu_gyro_mean_rad_s": 0.0018486314916717724,
+        "imu_gyro_p90_rad_s": 0.0024259964555479684,
+        "imu_rotational_energy_rad2_s": 3.637643419669823e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.9668812302043222,
+        "flow_edge_weighted_px_s": 16.253866300940885,
+        "flow_iqr_px_s": 14.157129380276197,
+        "flow_low_motion_fraction": 0.026059510030864198,
+        "flow_magnitude_entropy": 0.6144941512072644,
+        "flow_max_px_s": 93.85984757930973,
+        "flow_mean_px_s": 15.976857087927236,
+        "flow_median_px_s": 14.053958595060376,
+        "flow_p90_px_s": 30.808760326406436,
+        "flow_spatial_consistency": 0.2214425542663811,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 122.3521012907896
+      },
+      "motion_config": {
+        "base_scene": "Scene_003",
+        "camera_motion_enabled": true,
+        "camera_path_m": 30.0,
+        "canonical_camera_trajectory_sha256": "5138973f6536beb9c7a5ff0d51a1c486834b7b844514062ef912df1a5483384e",
+        "canonical_traffic_trajectory_sha256": null,
+        "causal_actor": "externally sourced textured vehicle; stationary in opposing lane",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "human-driven passenger car dash camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_MOVING_OBJ_STATIC",
+        "object_motion_enabled": false,
+        "object_visibility": {
+          "minimum_screen_area": 0.0,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": false,
+          "visible_any_sample": true
+        },
+        "passing_safety": {
+          "collision_free": true,
+          "ego_lane_curb_clearance_m": 0.1513633742669267,
+          "lane_center_separation_m": 2.6,
+          "minimum_body_clearance_at_passing_m": 0.6027267485338528,
+          "minimum_center_distance_m": 2.6000286277562226,
+          "opposite_directions": null,
+          "required_body_clearance_m": 0.2,
+          "required_traffic_curb_clearance_m": 0.3,
+          "traffic_clear_of_curb": true,
+          "traffic_curb_clearance_m": 1.2513633742669263,
+          "traffic_moving": false,
+          "valid": true,
+          "vehicle_width_m": 1.9972732514661473
+        },
+        "road_coordinate_system": {
+          "axis": "world_x",
+          "camera_lane_y": -3.1,
+          "camera_x_range_m": [
+            -10.0,
+            20.0
+          ],
+          "main_carriageway_y_range_m": [
+            -4.25,
+            1.75
+          ],
+          "traffic_lane_y": -0.5,
+          "traffic_x_range_m": [
+            -8.0,
+            18.0
+          ]
+        },
+        "scene_name": "Market Street",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\14_city_blocks\\14_city_blocks.blend",
+        "sequence_id": "Scene_003_CAM_MOVING_OBJ_STATIC",
+        "speed_profile": "STOP_AND_GO",
+        "split": "train",
+        "traffic_path_m": 0.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_MOVING_OBJ_STATIC",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_003",
+      "sequence_id": "Scene_003_CAM_MOVING_OBJ_STATIC",
+      "split": "train"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.806580481368508,
+        "imu_accel_std_m_s2": 0.01057224675212679,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.0026323367700569218,
+        "imu_gyro_mean_rad_s": 0.0018494300246621443,
+        "imu_gyro_p90_rad_s": 0.0024245404100745557,
+        "imu_rotational_energy_rad2_s": 3.642155687899279e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.4385245314647625,
+        "flow_edge_weighted_px_s": 0.38504986017775167,
+        "flow_iqr_px_s": 0.003320585324103405,
+        "flow_low_motion_fraction": 0.9730574845679012,
+        "flow_magnitude_entropy": 0.03602436012318406,
+        "flow_max_px_s": 22.94765511815994,
+        "flow_mean_px_s": 0.35867906660172844,
+        "flow_median_px_s": 0.0010280237776704247,
+        "flow_p90_px_s": 0.01402574825524491,
+        "flow_spatial_consistency": 0.8713727357261385,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 6.9643923622860795
+      },
+      "motion_config": {
+        "base_scene": "Scene_003",
+        "camera_motion_enabled": false,
+        "camera_path_m": 0.0,
+        "canonical_camera_trajectory_sha256": "35d5006692e224ee2b40644d88c4cfcf7e07fe1c72b08109d1ec2938d8fa6428",
+        "canonical_traffic_trajectory_sha256": "8e9b5582e7b667215d2eef4aabd2777a9752e2a898030ec32c90ba9ad091d2ee",
+        "causal_actor": "externally sourced textured vehicle; motion driven by lane-following trajectory",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "fixed roadside camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_STATIC_OBJ_MOVING",
+        "object_motion_enabled": true,
+        "object_visibility": {
+          "minimum_screen_area": 0.015172479393894989,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": true,
+          "visible_any_sample": true
+        },
+        "passing_safety": null,
+        "road_coordinate_system": {
+          "axis": "world_x",
+          "camera_lane_y": -3.1,
+          "camera_x_range_m": [
+            -10.0,
+            20.0
+          ],
+          "main_carriageway_y_range_m": [
+            -4.25,
+            1.75
+          ],
+          "traffic_lane_y": -0.5,
+          "traffic_x_range_m": [
+            -8.0,
+            18.0
+          ]
+        },
+        "scene_name": "Market Street",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\14_city_blocks\\14_city_blocks.blend",
+        "sequence_id": "Scene_003_CAM_STATIC_OBJ_MOVING",
+        "speed_profile": "STOP_AND_GO",
+        "split": "train",
+        "traffic_path_m": 26.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_STATIC_OBJ_MOVING",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_003",
+      "sequence_id": "Scene_003_CAM_STATIC_OBJ_MOVING",
+      "split": "train"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.806580628578518,
+        "imu_accel_std_m_s2": 0.010573097318309875,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.0026786201200294595,
+        "imu_gyro_mean_rad_s": 0.0018493848522746722,
+        "imu_gyro_p90_rad_s": 0.0024171253170558317,
+        "imu_rotational_energy_rad2_s": 3.65025223249692e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.969172501123878,
+        "flow_edge_weighted_px_s": 15.51180355985063,
+        "flow_iqr_px_s": 11.5164238159919,
+        "flow_low_motion_fraction": 0.018152488425925924,
+        "flow_magnitude_entropy": 0.559086669117751,
+        "flow_max_px_s": 82.38627850658429,
+        "flow_mean_px_s": 14.98642499897538,
+        "flow_median_px_s": 14.088580068161685,
+        "flow_p90_px_s": 26.230514490494826,
+        "flow_spatial_consistency": 0.24315038429564156,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 74.40205376366954
+      },
+      "motion_config": {
+        "base_scene": "Scene_004",
+        "camera_motion_enabled": true,
+        "camera_path_m": 48.0,
+        "canonical_camera_trajectory_sha256": "c9b17e09673bd36a87cce47c403c5b57ec1c351e6e08a9b036da555cdd98aae8",
+        "canonical_traffic_trajectory_sha256": "dd5e8c2da343e8e2ab209ab156f58f97925b171361c377ace209102edf27af7b",
+        "causal_actor": "externally sourced textured vehicle; motion driven by lane-following trajectory",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "human-driven passenger car dash camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_MOVING_OBJ_MOVING",
+        "object_motion_enabled": true,
+        "object_visibility": {
+          "minimum_screen_area": 0.0,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": false,
+          "visible_any_sample": true
+        },
+        "passing_safety": {
+          "collision_free": true,
+          "ego_lane_curb_clearance_m": 2.351363374266926,
+          "lane_center_separation_m": 3.0,
+          "minimum_body_clearance_at_passing_m": 1.0027267485338527,
+          "minimum_center_distance_m": 3.000235432509728,
+          "opposite_directions": true,
+          "required_body_clearance_m": 0.2,
+          "required_traffic_curb_clearance_m": 0.3,
+          "traffic_clear_of_curb": true,
+          "traffic_curb_clearance_m": 1.1513633742669263,
+          "traffic_moving": true,
+          "valid": true,
+          "vehicle_width_m": 1.9972732514661473
+        },
+        "road_coordinate_system": {
+          "axis": "world_x",
+          "camera_lane_y": -3.4,
+          "camera_x_range_m": [
+            -28.0,
+            20.0
+          ],
+          "main_carriageway_y_range_m": [
+            -6.75,
+            1.75
+          ],
+          "traffic_lane_y": -0.4,
+          "traffic_x_range_m": [
+            -26.0,
+            12.0
+          ]
+        },
+        "scene_name": "Neon Auto District",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\14_city_blocks\\14_city_blocks.blend",
+        "sequence_id": "Scene_004_CAM_MOVING_OBJ_MOVING",
+        "speed_profile": "CRUISE",
+        "split": "train",
+        "traffic_path_m": 38.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_MOVING_OBJ_MOVING",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_004",
+      "sequence_id": "Scene_004_CAM_MOVING_OBJ_MOVING",
+      "split": "train"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.806588220179812,
+        "imu_accel_std_m_s2": 0.010582604156781972,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.0026919064917498158,
+        "imu_gyro_mean_rad_s": 0.0018483747193885954,
+        "imu_gyro_p90_rad_s": 0.0024020319905400647,
+        "imu_rotational_energy_rad2_s": 3.654434347886663e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.966724315932852,
+        "flow_edge_weighted_px_s": 15.676593587262719,
+        "flow_iqr_px_s": 11.637993173676087,
+        "flow_low_motion_fraction": 0.018655719521604937,
+        "flow_magnitude_entropy": 0.5598743664681396,
+        "flow_max_px_s": 72.2975572881742,
+        "flow_mean_px_s": 15.079800097525293,
+        "flow_median_px_s": 14.201169242629298,
+        "flow_p90_px_s": 26.44161953394699,
+        "flow_spatial_consistency": 0.24524944359417528,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 74.05187464861152
+      },
+      "motion_config": {
+        "base_scene": "Scene_004",
+        "camera_motion_enabled": true,
+        "camera_path_m": 48.0,
+        "canonical_camera_trajectory_sha256": "c9b17e09673bd36a87cce47c403c5b57ec1c351e6e08a9b036da555cdd98aae8",
+        "canonical_traffic_trajectory_sha256": null,
+        "causal_actor": "externally sourced textured vehicle; stationary in opposing lane",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "human-driven passenger car dash camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_MOVING_OBJ_STATIC",
+        "object_motion_enabled": false,
+        "object_visibility": {
+          "minimum_screen_area": 0.0,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": false,
+          "visible_any_sample": true
+        },
+        "passing_safety": {
+          "collision_free": true,
+          "ego_lane_curb_clearance_m": 2.351363374266926,
+          "lane_center_separation_m": 3.0,
+          "minimum_body_clearance_at_passing_m": 1.0027267485338527,
+          "minimum_center_distance_m": 3.0003204164661788,
+          "opposite_directions": null,
+          "required_body_clearance_m": 0.2,
+          "required_traffic_curb_clearance_m": 0.3,
+          "traffic_clear_of_curb": true,
+          "traffic_curb_clearance_m": 1.1513633742669263,
+          "traffic_moving": false,
+          "valid": true,
+          "vehicle_width_m": 1.9972732514661473
+        },
+        "road_coordinate_system": {
+          "axis": "world_x",
+          "camera_lane_y": -3.4,
+          "camera_x_range_m": [
+            -28.0,
+            20.0
+          ],
+          "main_carriageway_y_range_m": [
+            -6.75,
+            1.75
+          ],
+          "traffic_lane_y": -0.4,
+          "traffic_x_range_m": [
+            -26.0,
+            12.0
+          ]
+        },
+        "scene_name": "Neon Auto District",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\14_city_blocks\\14_city_blocks.blend",
+        "sequence_id": "Scene_004_CAM_MOVING_OBJ_STATIC",
+        "speed_profile": "CRUISE",
+        "split": "train",
+        "traffic_path_m": 0.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_MOVING_OBJ_STATIC",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_004",
+      "sequence_id": "Scene_004_CAM_MOVING_OBJ_STATIC",
+      "split": "train"
+    },
+    {
+      "duration_s": 8.0,
+      "flow_sample_count": 8,
+      "frame_count": 480,
+      "imu_features": {
+        "imu_accel_mean_m_s2": 9.806602679658331,
+        "imu_accel_std_m_s2": 0.010598295071540888,
+        "imu_available": 1.0,
+        "imu_dominant_axis_x": 0.0,
+        "imu_dominant_axis_y": 0.0,
+        "imu_dominant_axis_z": 1.0,
+        "imu_gyro_max_rad_s": 0.002670976191406504,
+        "imu_gyro_mean_rad_s": 0.001847944511232157,
+        "imu_gyro_p90_rad_s": 0.00244110278614958,
+        "imu_rotational_energy_rad2_s": 3.648029645280221e-06
+      },
+      "imu_nonzero_gyro_fraction": 1.0,
+      "imu_sample_count": 8001,
+      "mean_flow_features": {
+        "flow_direction_entropy": 0.6618383544832449,
+        "flow_edge_weighted_px_s": 1.0904872522639053,
+        "flow_iqr_px_s": 0.4230616966073006,
+        "flow_low_motion_fraction": 0.9102015817901234,
+        "flow_magnitude_entropy": 0.10581211273119391,
+        "flow_max_px_s": 34.35493873882905,
+        "flow_mean_px_s": 1.2339558068681034,
+        "flow_median_px_s": 0.012592996867682194,
+        "flow_p90_px_s": 3.4772099717868428,
+        "flow_spatial_consistency": 0.5157452075400751,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 20.248321697804883
+      },
+      "motion_config": {
+        "base_scene": "Scene_004",
+        "camera_motion_enabled": false,
+        "camera_path_m": 0.0,
+        "canonical_camera_trajectory_sha256": "35d5006692e224ee2b40644d88c4cfcf7e07fe1c72b08109d1ec2938d8fa6428",
+        "canonical_traffic_trajectory_sha256": "eef256a95f9c76932a4226674ddd1c2d781af0bc5c0a2413d37dcb5501e0903f",
+        "causal_actor": "externally sourced textured vehicle; motion driven by lane-following trajectory",
+        "contract": {
+          "camera_path_min_m": 30.0,
+          "dynamic_object": "externally sourced textured vehicle; no driver geometry",
+          "ego_camera_mount": "human-driven passenger car dash camera",
+          "longitudinal_motion": "monotonic lane-following; no unexplained reversal or lateral sliding",
+          "traffic_path_min_m": 22.0
+        },
+        "driver_geometry_present": false,
+        "ego_camera_mount": "fixed roadside camera",
+        "human_asset": null,
+        "imu_signal_model": "trajectory_second_derivative_plus_deterministic_road_vibration",
+        "longitudinal_motion": "monotonic lane-following; vehicle heading follows lane tangent",
+        "motion_regime": "CAM_STATIC_OBJ_MOVING",
+        "object_motion_enabled": true,
+        "object_visibility": {
+          "minimum_screen_area": 0.008345898143303998,
+          "visibility_threshold": 1e-05,
+          "visible_all_samples": true,
+          "visible_any_sample": true
+        },
+        "passing_safety": null,
+        "road_coordinate_system": {
+          "axis": "world_x",
+          "camera_lane_y": -3.4,
+          "camera_x_range_m": [
+            -28.0,
+            20.0
+          ],
+          "main_carriageway_y_range_m": [
+            -6.75,
+            1.75
+          ],
+          "traffic_lane_y": -0.4,
+          "traffic_x_range_m": [
+            -26.0,
+            12.0
+          ]
+        },
+        "scene_name": "Neon Auto District",
+        "scene_source_blend": "E:\\Shenduxuexishiyan\\tiny_scene_blender\\eva_gs_blender_files\\14_city_blocks\\14_city_blocks.blend",
+        "sequence_id": "Scene_004_CAM_STATIC_OBJ_MOVING",
+        "speed_profile": "CRUISE",
+        "split": "train",
+        "traffic_path_m": 38.0,
+        "trajectory_ground": {
+          "camera_invalid_samples": 0,
+          "camera_on_road": true,
+          "camera_samples": 480,
+          "traffic_invalid_samples": 0,
+          "traffic_on_road": true,
+          "traffic_samples": 480,
+          "valid": true
+        },
+        "vehicle_asset": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-29\\wo-z\\3D-car-model-main\\data\\aventador\\aventador.gltf",
+        "vehicle_count": 1
+      },
+      "motion_regime": "CAM_STATIC_OBJ_MOVING",
+      "rgb_shape": [
+        540,
+        960,
+        3
+      ],
+      "sample_stride": 60,
+      "scene_id": "Scene_004",
+      "sequence_id": "Scene_004_CAM_STATIC_OBJ_MOVING",
+      "split": "train"
+    }
+  ],
+  "scene_count": 15,
+  "split_counts": {
+    "test": 3,
+    "train": 12
+  },
+  "status": "synthetic_rendered_dataset_contract_audit",
+  "provenance": "Blender-rendered RGB with trajectory-derived deterministic IMU"
+}

@@ -1,0 +1,53 @@
+protocol: ami_downstream_dvs_v2e_ours_v1
+status: frozen_before_final_run
+methods:
+  - id: dvs_voltmeter
+    role: external_event_simulator_baseline
+    implementation: official_DVS-Voltmeter
+  - id: v2e
+    role: external_event_simulator_baseline
+    implementation: official_v2e
+  - id: ours
+    role: learned_controlled_optical_modulation
+    checkpoint: results/comotion_horizon2_q_policy/policy.pt
+    gate:
+      margin: 0.005
+      confidence: 0.35
+      minimum_dwell_seconds: 0.025
+downstream_representation:
+  name: contrast_maximization_iwe
+  full_name: Contrast Maximization with polarity-separated Image of Warped Events
+  role: common_downstream_event_to_image_baseline
+  velocity_estimator: deterministic_translation_grid
+  same_grid_for_all_methods: true
+  apply_to: [dvs_voltmeter, v2e, ours]
+fairness:
+  same_source_rgb: true
+  same_source_timestamps: true
+  same_causal_window: true
+  same_spatial_resolution_and_valid_fov: true
+  same_downstream_representation: true
+  same_downstream_parameters: true
+  event_count_matching: report_both_native_and_matched_budget
+  forbidden_substitution: internal_threshold_backend_must_not_be_named_v2e_or_dvs_voltmeter
+primary_metrics:
+  - target_edge_f1
+  - target_edge_precision
+  - target_edge_recall
+  - downstream_spatial_matching_f1
+secondary_metrics:
+  - feature_repeatability
+  - descriptor_true_matches
+  - temporal_support
+  - event_count
+  - latency
+diagnostic_only:
+  - event_efficiency
+ablations_not_main_comparison:
+  fixed_rpm: [120, 180, 240, 360]
+  privileged_horizon2_teacher: true
+availability:
+  dvs_voltmeter_root: /data/fcr/code/event_vggt/Data_Part/DVS-Voltmeter
+  v2e_root: /data/fcr/vendor/v2e
+  v2e_python: /data/fcr/miniconda3/envs/v2e/bin/python
+  dvs_python: /data/fcr/miniconda3/envs/dvsvolt/bin/python

@@ -1,0 +1,38 @@
+protocol: ami_next_stage_a_cpu_validity_v1
+source_script: scripts/run_ami_next_simulator_validity.py
+uses_rife: false
+uses_cuda: false
+uses_learned_policy: false
+image:
+  width: 32
+  height: 32
+  intrinsics: fx_fy_40_cx_cy_15.5
+  scene: static_finite_width_edge
+optics:
+  prism_angle_deg: 0.5
+  padding_mode: border
+event_model:
+  backend: deterministic_log_threshold_cpu
+  contrast_threshold: 0.05
+  sensor_noise: disabled
+equal_cycle:
+  rpm: [90, 180, 360, 720, 1080]
+  initial_phase_rad: [0.0, 1.5707963267948966, 3.141592653589793, 4.71238898038469]
+  samples: 256
+  comparison: event_count_polarity_normalized_phase
+equal_time:
+  duration_seconds: 0.1
+  status: executed
+sampling_convergence:
+  sample_counts: [16, 32, 64, 128, 256]
+  reference: largest_sample_count_per_rpm
+border_sensitivity:
+  padding_modes: [border, zeros]
+resolution_sensitivity:
+  resolutions: [16, 32, 64]
+checks:
+  constant_luminance_zero_events: required
+  periodic_equal_endpoints_not_missed: required
+  cpu_phase_reparameterization: required
+  cuda_reference_parity: pending_cuda_machine
+  compiled_cuda_parity_and_overflow: pending_cuda_machine

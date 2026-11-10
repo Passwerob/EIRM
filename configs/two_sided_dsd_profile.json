@@ -1,0 +1,5 @@
+[
+  {"label": "compressed clock 360-favored (image-wide edge F1, prism sweep 2.25deg/window)", "rate": 1.0, "fps": 480, "start_frame": 345, "until_frame": 375},
+  {"label": "ramp to native clock", "rate": 1.0, "fps": 60, "ramp_s": 0.25, "duration_s": 0.3},
+  {"label": "native clock saturated driving 0-favored (object edge F1, prism sweep 18deg/window)", "rate": 1.0, "fps": 60, "ramp_s": 0.2, "until_frame": 470}
+]

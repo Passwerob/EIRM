@@ -1,0 +1,412 @@
+{
+  "aggregate": {
+    "adaptive_beats_best_task_count": 0,
+    "adaptive_beats_best_useful_count": 1,
+    "condition_count": 16,
+    "mean_best_task_minus_adaptive_task_regret": 0.1399388513440131,
+    "mean_best_useful_minus_adaptive_useful_regret": 0.1291611049554247,
+    "median_best_task_minus_adaptive_task_regret": 0.0769690170627167,
+    "median_best_useful_minus_adaptive_useful_regret": 0.0791156598524213
+  },
+  "baseline_sweep": "NEW/results/scene_motion_sweep.csv",
+  "conditions": [
+    {
+      "adaptive_event_count": 1144671,
+      "adaptive_matching_failure_rate": 0.3333333333333333,
+      "adaptive_mean_event_density": 17.466293334960938,
+      "adaptive_selected_indices": [
+        0,
+        3,
+        3,
+        3
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.25267486909783804,
+      "adaptive_useful_utility": 0.16519645644696573,
+      "best_task_policy": "constant_30",
+      "best_task_utility": 0.5113814556200891,
+      "best_useful_policy": "chirp",
+      "best_useful_utility": 0.4239217817157788,
+      "motion_regime": "static",
+      "texture": "checker",
+      "velocity_px_s": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "adaptive_event_count": 264490,
+      "adaptive_matching_failure_rate": 0.0,
+      "adaptive_mean_event_density": 4.035797119140625,
+      "adaptive_selected_indices": [
+        0,
+        5,
+        5,
+        5
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.33019164433516784,
+      "adaptive_useful_utility": 0.2816944894574061,
+      "best_task_policy": "constant_0",
+      "best_task_utility": 0.4145143420062526,
+      "best_useful_policy": "constant_0",
+      "best_useful_utility": 0.37480057183240373,
+      "motion_regime": "slow",
+      "texture": "checker",
+      "velocity_px_s": [
+        8.0,
+        3.0
+      ]
+    },
+    {
+      "adaptive_event_count": 619084,
+      "adaptive_matching_failure_rate": 0.0,
+      "adaptive_mean_event_density": 9.44647216796875,
+      "adaptive_selected_indices": [
+        0,
+        5,
+        5,
+        5
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.42357222423879665,
+      "adaptive_useful_utility": 0.35318429434383614,
+      "best_task_policy": "constant_0",
+      "best_task_utility": 0.4805005828108282,
+      "best_useful_policy": "constant_0",
+      "best_useful_utility": 0.41192344204527986,
+      "motion_regime": "medium",
+      "texture": "checker",
+      "velocity_px_s": [
+        25.0,
+        10.0
+      ]
+    },
+    {
+      "adaptive_event_count": 1417740,
+      "adaptive_matching_failure_rate": 0.0,
+      "adaptive_mean_event_density": 21.63299560546875,
+      "adaptive_selected_indices": [
+        0,
+        0,
+        6,
+        6
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.433933905188464,
+      "adaptive_useful_utility": 0.34035164046598,
+      "best_task_policy": "constant_0",
+      "best_task_utility": 0.5031625628646033,
+      "best_useful_policy": "constant_6",
+      "best_useful_utility": 0.2906925208462869,
+      "motion_regime": "fast",
+      "texture": "checker",
+      "velocity_px_s": [
+        60.0,
+        24.0
+      ]
+    },
+    {
+      "adaptive_event_count": 501921,
+      "adaptive_matching_failure_rate": 0.3333333333333333,
+      "adaptive_mean_event_density": 7.6587066650390625,
+      "adaptive_selected_indices": [
+        0,
+        3,
+        3,
+        3
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.4832838800975093,
+      "adaptive_useful_utility": 0.4185269191300283,
+      "best_task_policy": "constant_30",
+      "best_task_utility": 0.8513207882625382,
+      "best_useful_policy": "chirp",
+      "best_useful_utility": 0.8006832993047137,
+      "motion_regime": "static",
+      "texture": "blobs",
+      "velocity_px_s": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "adaptive_event_count": 109719,
+      "adaptive_matching_failure_rate": 0.0,
+      "adaptive_mean_event_density": 1.6741790771484375,
+      "adaptive_selected_indices": [
+        0,
+        5,
+        5,
+        5
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.7976432032153147,
+      "adaptive_useful_utility": 0.768133929829279,
+      "best_task_policy": "constant_0",
+      "best_task_utility": 0.849801749110059,
+      "best_useful_policy": "constant_0",
+      "best_useful_utility": 0.826779304741185,
+      "motion_regime": "slow",
+      "texture": "blobs",
+      "velocity_px_s": [
+        8.0,
+        3.0
+      ]
+    },
+    {
+      "adaptive_event_count": 249887,
+      "adaptive_matching_failure_rate": 0.0,
+      "adaptive_mean_event_density": 3.8129730224609375,
+      "adaptive_selected_indices": [
+        0,
+        5,
+        5,
+        5
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.8045150685277132,
+      "adaptive_useful_utility": 0.7573756189727567,
+      "best_task_policy": "constant_0",
+      "best_task_utility": 0.8438372830498048,
+      "best_useful_policy": "constant_0",
+      "best_useful_utility": 0.7978182592786458,
+      "motion_regime": "medium",
+      "texture": "blobs",
+      "velocity_px_s": [
+        25.0,
+        10.0
+      ]
+    },
+    {
+      "adaptive_event_count": 591987,
+      "adaptive_matching_failure_rate": 0.0,
+      "adaptive_mean_event_density": 9.033004760742188,
+      "adaptive_selected_indices": [
+        0,
+        0,
+        6,
+        6
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.7867693459527165,
+      "adaptive_useful_utility": 0.7175929419191655,
+      "best_task_policy": "constant_0",
+      "best_task_utility": 0.8154543982088709,
+      "best_useful_policy": "constant_0",
+      "best_useful_utility": 0.7469847857772153,
+      "motion_regime": "fast",
+      "texture": "blobs",
+      "velocity_px_s": [
+        60.0,
+        24.0
+      ]
+    },
+    {
+      "adaptive_event_count": 1127307,
+      "adaptive_matching_failure_rate": 0.3333333333333333,
+      "adaptive_mean_event_density": 17.201339721679688,
+      "adaptive_selected_indices": [
+        0,
+        3,
+        3,
+        3
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.2726792773212358,
+      "adaptive_useful_utility": 0.18563442124758917,
+      "best_task_policy": "constant_30",
+      "best_task_utility": 0.5350171330985357,
+      "best_useful_policy": "chirp",
+      "best_useful_utility": 0.43966939331052746,
+      "motion_regime": "static",
+      "texture": "grid",
+      "velocity_px_s": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "adaptive_event_count": 268669,
+      "adaptive_matching_failure_rate": 0.0,
+      "adaptive_mean_event_density": 4.0995635986328125,
+      "adaptive_selected_indices": [
+        0,
+        5,
+        5,
+        5
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.2781407214001974,
+      "adaptive_useful_utility": 0.22926607238499164,
+      "best_task_policy": "constant_30",
+      "best_task_utility": 0.4782556433230339,
+      "best_useful_policy": "constant_0",
+      "best_useful_utility": 0.39513793641290196,
+      "motion_regime": "slow",
+      "texture": "grid",
+      "velocity_px_s": [
+        8.0,
+        3.0
+      ]
+    },
+    {
+      "adaptive_event_count": 604533,
+      "adaptive_matching_failure_rate": 0.0,
+      "adaptive_mean_event_density": 9.224441528320312,
+      "adaptive_selected_indices": [
+        0,
+        5,
+        5,
+        5
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.36662592998898336,
+      "adaptive_useful_utility": 0.2968824975235818,
+      "best_task_policy": "constant_0",
+      "best_task_utility": 0.5794525646088874,
+      "best_useful_policy": "constant_0",
+      "best_useful_utility": 0.5124026642610923,
+      "motion_regime": "medium",
+      "texture": "grid",
+      "velocity_px_s": [
+        25.0,
+        10.0
+      ]
+    },
+    {
+      "adaptive_event_count": 1362762,
+      "adaptive_matching_failure_rate": 0.0,
+      "adaptive_mean_event_density": 20.794097900390625,
+      "adaptive_selected_indices": [
+        0,
+        0,
+        6,
+        6
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.43217199894176705,
+      "adaptive_useful_utility": 0.33972282310303015,
+      "best_task_policy": "constant_0",
+      "best_task_utility": 0.4905890627416223,
+      "best_useful_policy": "constant_6",
+      "best_useful_utility": 0.3536263247107345,
+      "motion_regime": "fast",
+      "texture": "grid",
+      "velocity_px_s": [
+        60.0,
+        24.0
+      ]
+    },
+    {
+      "adaptive_event_count": 237031,
+      "adaptive_matching_failure_rate": 0.3333333333333333,
+      "adaptive_mean_event_density": 3.6168060302734375,
+      "adaptive_selected_indices": [
+        0,
+        3,
+        3,
+        3
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.4771799652787269,
+      "adaptive_useful_utility": 0.43128887136155325,
+      "best_task_policy": "constant_30",
+      "best_task_utility": 0.8574299700974615,
+      "best_useful_policy": "constant_reverse_14",
+      "best_useful_utility": 0.805130104508802,
+      "motion_regime": "static",
+      "texture": "sparse",
+      "velocity_px_s": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "adaptive_event_count": 118004,
+      "adaptive_matching_failure_rate": 0.0,
+      "adaptive_mean_event_density": 1.80059814453125,
+      "adaptive_selected_indices": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.7743326230323654,
+      "adaptive_useful_utility": 0.743437632509949,
+      "best_task_policy": "constant_30",
+      "best_task_utility": 0.848741922458114,
+      "best_useful_policy": "constant_0",
+      "best_useful_utility": 0.8177089192070449,
+      "motion_regime": "slow",
+      "texture": "sparse",
+      "velocity_px_s": [
+        8.0,
+        3.0
+      ]
+    },
+    {
+      "adaptive_event_count": 151157,
+      "adaptive_matching_failure_rate": 0.0,
+      "adaptive_mean_event_density": 2.3064727783203125,
+      "adaptive_selected_indices": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.7821222503060009,
+      "adaptive_useful_utility": 0.7462457904463732,
+      "best_task_policy": "constant_0",
+      "best_task_utility": 0.8616509850056857,
+      "best_useful_policy": "constant_0",
+      "best_useful_utility": 0.8302058234541199,
+      "motion_regime": "medium",
+      "texture": "sparse",
+      "velocity_px_s": [
+        25.0,
+        10.0
+      ]
+    },
+    {
+      "adaptive_event_count": 273803,
+      "adaptive_matching_failure_rate": 0.0,
+      "adaptive_mean_event_density": 4.1779022216796875,
+      "adaptive_selected_indices": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "adaptive_switch_count": 1,
+      "adaptive_task_utility": 0.7749759513240561,
+      "adaptive_useful_utility": 0.7256439513919597,
+      "best_task_policy": "constant_0",
+      "best_task_utility": 0.7887240364846761,
+      "best_useful_policy": "constant_0",
+      "best_useful_utility": 0.7392708984145087,
+      "motion_regime": "fast",
+      "texture": "sparse",
+      "velocity_px_s": [
+        60.0,
+        24.0
+      ]
+    }
+  ],
+  "configuration": {
+    "bandwidth_limit": 15.0,
+    "bandwidth_penalty": 0.03,
+    "duration_s": 0.4,
+    "fps": 120.0,
+    "initial_index": 0,
+    "seed": 23,
+    "size": 128,
+    "window_s": 0.1
+  },
+  "controller": "rule_based_adaptive_trajectory",
+  "selection_is_autonomous": true,
+  "state": "flow_plus_previous_event_quality_plus_previous_trajectory",
+  "status": "autonomous_controller_pilot_not_paper_evidence"
+}

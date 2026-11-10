@@ -1,0 +1,39 @@
+{
+  "dataset": "NEW/data/eveyes_single_car_dataset_final_imu_v2",
+  "duration_s": 0.5010438413361169,
+  "event_quality": {
+    "fixed_fast": {
+      "event_count": 306378,
+      "mean_edge_coverage": 1.0,
+      "mean_event_density": 16.6220703125,
+      "mean_event_efficiency": 0.058940944264760764,
+      "mean_reference_valid_fraction": 0.9754719850083909,
+      "mean_temporal_diversity": 1.0
+    },
+    "fixed_slow": {
+      "event_count": 168514,
+      "mean_edge_coverage": 0.9943576388888888,
+      "mean_event_density": 9.142469618055555,
+      "mean_event_efficiency": 0.10368162148820372,
+      "mean_reference_valid_fraction": 0.9630858107441848,
+      "mean_temporal_diversity": 1.0
+    },
+    "no_prism": {
+      "event_count": 143196,
+      "mean_edge_coverage": 0.9305555555555556,
+      "mean_event_density": 7.768880208333333,
+      "mean_event_efficiency": 0.11492491688255818,
+      "mean_reference_valid_fraction": 0.9613835496761619,
+      "mean_temporal_diversity": 1.0
+    }
+  },
+  "frame_count": 31,
+  "imu_sample_count": 8001,
+  "note": "No correspondence/depth is supplied; ORB matching is intentionally not used as a task claim.",
+  "resolution": [
+    128,
+    72
+  ],
+  "sequence_id": "Scene_005_CAM_MOVING_OBJ_MOVING",
+  "status": "synthetic_rendered_rgb_event_quality_probe_not_task_evidence"
+}

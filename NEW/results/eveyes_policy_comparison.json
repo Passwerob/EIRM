@@ -1,0 +1,189 @@
+{
+  "configuration": {
+    "frame_count": 61,
+    "height": 144,
+    "useful_speed_cap_rad_s": 8.0,
+    "width": 256,
+    "window_count": 5
+  },
+  "dataset": "NEW/data/eveyes_single_car_dataset_final_imu_v2",
+  "note": "All policies use identical RGB frames, timestamps, prism model, event threshold, and windows. No task matching claim is made.",
+  "provenance": "Blender-rendered RGB with trajectory-derived deterministic IMU",
+  "rows": [
+    {
+      "event_count": 1832490,
+      "mean_edge_coverage": 0.9251856519267372,
+      "mean_edge_f1": 0.4059772455800027,
+      "mean_event_density": 9.94189453125,
+      "mean_event_efficiency": 0.0896282747193907,
+      "mean_reference_valid_fraction": 0.9466701244095755,
+      "mean_temporal_diversity": 1.0,
+      "motion_regime": "CAM_MOVING_OBJ_MOVING",
+      "policy": "constant_0",
+      "selected_indices": null,
+      "sequence_id": "Scene_005_CAM_MOVING_OBJ_MOVING"
+    },
+    {
+      "event_count": 2275244,
+      "mean_edge_coverage": 0.9857619082334897,
+      "mean_edge_f1": 0.412634509223902,
+      "mean_event_density": 12.343988715277778,
+      "mean_event_efficiency": 0.07667043302448169,
+      "mean_reference_valid_fraction": 0.9628871412003821,
+      "mean_temporal_diversity": 1.0,
+      "motion_regime": "CAM_MOVING_OBJ_MOVING",
+      "policy": "constant_6",
+      "selected_indices": null,
+      "sequence_id": "Scene_005_CAM_MOVING_OBJ_MOVING"
+    },
+    {
+      "event_count": 4872193,
+      "mean_edge_coverage": 0.9997395503622138,
+      "mean_edge_f1": 0.40526448529238907,
+      "mean_event_density": 26.433338758680556,
+      "mean_event_efficiency": 0.037208486392580974,
+      "mean_reference_valid_fraction": 0.9747610976535283,
+      "mean_temporal_diversity": 1.0,
+      "motion_regime": "CAM_MOVING_OBJ_MOVING",
+      "policy": "constant_30",
+      "selected_indices": null,
+      "sequence_id": "Scene_005_CAM_MOVING_OBJ_MOVING"
+    },
+    {
+      "event_count": 1939188,
+      "mean_edge_coverage": 0.9415069756902288,
+      "mean_edge_f1": 0.4095609281113262,
+      "mean_event_density": 10.520768229166668,
+      "mean_event_efficiency": 0.08558754750607764,
+      "mean_reference_valid_fraction": 0.954947541707169,
+      "mean_temporal_diversity": 1.0,
+      "motion_regime": "CAM_MOVING_OBJ_MOVING",
+      "policy": "adaptive",
+      "selected_indices": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sequence_id": "Scene_005_CAM_MOVING_OBJ_MOVING"
+    },
+    {
+      "event_count": 1891242,
+      "mean_edge_coverage": 0.9257315334486345,
+      "mean_edge_f1": 0.4057607967877548,
+      "mean_event_density": 10.260644531249998,
+      "mean_event_efficiency": 0.08712236978711264,
+      "mean_reference_valid_fraction": 0.9480395667581167,
+      "mean_temporal_diversity": 1.0,
+      "motion_regime": "CAM_MOVING_OBJ_STATIC",
+      "policy": "constant_0",
+      "selected_indices": null,
+      "sequence_id": "Scene_005_CAM_MOVING_OBJ_STATIC"
+    },
+    {
+      "event_count": 2341634,
+      "mean_edge_coverage": 0.9863051330673118,
+      "mean_edge_f1": 0.412196193838,
+      "mean_event_density": 12.704177517361112,
+      "mean_event_efficiency": 0.07474931787087188,
+      "mean_reference_valid_fraction": 0.9638038358519093,
+      "mean_temporal_diversity": 1.0,
+      "motion_regime": "CAM_MOVING_OBJ_STATIC",
+      "policy": "constant_6",
+      "selected_indices": null,
+      "sequence_id": "Scene_005_CAM_MOVING_OBJ_STATIC"
+    },
+    {
+      "event_count": 5001827,
+      "mean_edge_coverage": 0.9998046663049376,
+      "mean_edge_f1": 0.40506632094587197,
+      "mean_event_density": 27.136648220486116,
+      "mean_event_efficiency": 0.03626703091664067,
+      "mean_reference_valid_fraction": 0.9753097633711791,
+      "mean_temporal_diversity": 1.0,
+      "motion_regime": "CAM_MOVING_OBJ_STATIC",
+      "policy": "constant_30",
+      "selected_indices": null,
+      "sequence_id": "Scene_005_CAM_MOVING_OBJ_STATIC"
+    },
+    {
+      "event_count": 2004314,
+      "mean_edge_coverage": 0.94315952440164,
+      "mean_edge_f1": 0.40990333996007716,
+      "mean_event_density": 10.874099392361112,
+      "mean_event_efficiency": 0.08297938949153341,
+      "mean_reference_valid_fraction": 0.9561502959506447,
+      "mean_temporal_diversity": 1.0,
+      "motion_regime": "CAM_MOVING_OBJ_STATIC",
+      "policy": "adaptive",
+      "selected_indices": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sequence_id": "Scene_005_CAM_MOVING_OBJ_STATIC"
+    },
+    {
+      "event_count": 0,
+      "mean_edge_coverage": 0.0,
+      "mean_edge_f1": 0.0,
+      "mean_event_density": 0.0,
+      "mean_event_efficiency": 0.0,
+      "mean_reference_valid_fraction": 1.0,
+      "mean_temporal_diversity": 0.0,
+      "motion_regime": "CAM_STATIC_OBJ_MOVING",
+      "policy": "constant_0",
+      "selected_indices": null,
+      "sequence_id": "Scene_005_CAM_STATIC_OBJ_MOVING"
+    },
+    {
+      "event_count": 1269139,
+      "mean_edge_coverage": 0.9902290739333406,
+      "mean_edge_f1": 0.4703704689190011,
+      "mean_event_density": 6.885519748263889,
+      "mean_event_efficiency": 0.11986917954598628,
+      "mean_reference_valid_fraction": 0.9891341045010039,
+      "mean_temporal_diversity": 1.0,
+      "motion_regime": "CAM_STATIC_OBJ_MOVING",
+      "policy": "constant_6",
+      "selected_indices": null,
+      "sequence_id": "Scene_005_CAM_STATIC_OBJ_MOVING"
+    },
+    {
+      "event_count": 4783782,
+      "mean_edge_coverage": 1.0,
+      "mean_edge_f1": 0.4129753899142524,
+      "mean_event_density": 25.95367838541667,
+      "mean_event_efficiency": 0.0370012305073322,
+      "mean_reference_valid_fraction": 0.9882888178421467,
+      "mean_temporal_diversity": 1.0,
+      "motion_regime": "CAM_STATIC_OBJ_MOVING",
+      "policy": "constant_30",
+      "selected_indices": null,
+      "sequence_id": "Scene_005_CAM_STATIC_OBJ_MOVING"
+    },
+    {
+      "event_count": 1258249,
+      "mean_edge_coverage": 0.9899468027358594,
+      "mean_edge_f1": 0.47086613667821214,
+      "mean_event_density": 6.826437717013889,
+      "mean_event_efficiency": 0.12093069296972167,
+      "mean_reference_valid_fraction": 0.989126110769926,
+      "mean_temporal_diversity": 1.0,
+      "motion_regime": "CAM_STATIC_OBJ_MOVING",
+      "policy": "adaptive",
+      "selected_indices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sequence_id": "Scene_005_CAM_STATIC_OBJ_MOVING"
+    }
+  ],
+  "status": "synthetic_rendered_policy_comparison_not_task_evidence"
+}

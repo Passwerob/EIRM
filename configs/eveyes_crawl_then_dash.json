@@ -1,0 +1,5 @@
+[
+  {"label": "crawl (favors 360)", "rate": 0.25, "fps": 60, "until_frame": 30},
+  {"label": "transit past the freeze", "rate": 4.0, "fps": 60, "ramp_s": 0.25, "until_frame": 332},
+  {"label": "dash (favors 0)", "rate": 8.0, "fps": 480, "ramp_s": 0.1, "snap_to_frame": true, "until_frame": 476}
+]

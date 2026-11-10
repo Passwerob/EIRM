@@ -1,0 +1,736 @@
+{
+  "aggregate": {
+    "budget_feasible_condition_count": 14,
+    "budget_infeasible_condition_count": 2,
+    "conclusion": {
+      "different_conditions_select_different_trajectories": true,
+      "event_count_objective_has_positive_median_task_regret": true,
+      "gate_h2_pilot_pass": true,
+      "textures_with_motion_dependent_winner": 4
+    },
+    "count_winner_distribution": {
+      "condition_count": 16,
+      "counts": {
+        "constant_30": 16
+      },
+      "normalized_winner_entropy": 0.0,
+      "single_trajectory_wins_everywhere": true,
+      "unique_winner_count": 1
+    },
+    "mean_count_objective_task_regret": 0.055783679404470744,
+    "median_count_objective_task_regret": 0.02244348816421521,
+    "median_useful_selection_task_regret": 0.0,
+    "task_winner_distribution": {
+      "condition_count": 16,
+      "counts": {
+        "constant_0": 10,
+        "constant_30": 6
+      },
+      "normalized_winner_entropy": 0.954434002924965,
+      "single_trajectory_wins_everywhere": false,
+      "unique_winner_count": 2
+    },
+    "unique_useful_winners_per_texture": {
+      "blobs": 2,
+      "checker": 2,
+      "grid": 2,
+      "sparse": 2
+    },
+    "useful_winner_distribution": {
+      "condition_count": 14,
+      "counts": {
+        "chirp": 3,
+        "constant_0": 10,
+        "constant_reverse_14": 1
+      },
+      "normalized_winner_entropy": 0.6908140210976049,
+      "single_trajectory_wins_everywhere": false,
+      "unique_winner_count": 3
+    }
+  },
+  "conditions": [
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.39133860895704575,
+        "flow_edge_weighted_px_s": 0.013710045490137237,
+        "flow_iqr_px_s": 4.135585407640057e-05,
+        "flow_low_motion_fraction": 0.99859619140625,
+        "flow_magnitude_entropy": 0.0,
+        "flow_max_px_s": 1.9662845990433206,
+        "flow_mean_px_s": 0.013576372508453238,
+        "flow_median_px_s": 1.024540417148001e-05,
+        "flow_p90_px_s": 0.016191132954944135,
+        "flow_spatial_consistency": 0.8695652173913043,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 0.0052609905737752505
+      },
+      "motion_regime": "static",
+      "texture": "checker",
+      "velocity_px_s": [
+        0.0,
+        0.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_30",
+        "best_task_utility": 0.5113814556200891,
+        "best_useful_under_budget": "chirp",
+        "best_useful_utility": 0.4239217817157788,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.0,
+        "count_winner_task_utility": 0.5113814556200891,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.039157865584750984
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.0005287559452820684,
+        "flow_edge_weighted_px_s": 8.421529873387293,
+        "flow_iqr_px_s": 0.08843267048305403,
+        "flow_low_motion_fraction": 0.0,
+        "flow_magnitude_entropy": 0.054502004171729256,
+        "flow_max_px_s": 9.093047838587864,
+        "flow_mean_px_s": 8.415791792048642,
+        "flow_median_px_s": 8.425130741515215,
+        "flow_p90_px_s": 8.508562495110816,
+        "flow_spatial_consistency": 1.0,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 0.014766507670753012
+      },
+      "motion_regime": "slow",
+      "texture": "checker",
+      "velocity_px_s": [
+        8.0,
+        3.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_0",
+        "best_task_utility": 0.4145143420062526,
+        "best_useful_under_budget": "constant_0",
+        "best_useful_utility": 0.37480057183240373,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.014567139544082619,
+        "count_winner_task_utility": 0.39994720246216997,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.0
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.0004181936491612243,
+        "flow_edge_weighted_px_s": 27.07494756084065,
+        "flow_iqr_px_s": 0.10117396074019336,
+        "flow_low_motion_fraction": 0.0009613037109375,
+        "flow_magnitude_entropy": 0.03797574250557183,
+        "flow_max_px_s": 41.517997176309834,
+        "flow_mean_px_s": 27.096742928706014,
+        "flow_median_px_s": 26.921367795536863,
+        "flow_p90_px_s": 27.12243872149465,
+        "flow_spatial_consistency": 0.9999541647330079,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 5.4605510108838935
+      },
+      "motion_regime": "medium",
+      "texture": "checker",
+      "velocity_px_s": [
+        25.0,
+        10.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_0",
+        "best_task_utility": 0.4805005828108282,
+        "best_useful_under_budget": "constant_0",
+        "best_useful_utility": 0.41192344204527986,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.08923621413911709,
+        "count_winner_task_utility": 0.3912643686717111,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.0
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.20564783353661326,
+        "flow_edge_weighted_px_s": 138.01062712359322,
+        "flow_iqr_px_s": 92.53838048343383,
+        "flow_low_motion_fraction": 0.0009307861328125,
+        "flow_magnitude_entropy": 0.2833330433586073,
+        "flow_max_px_s": 215.83446257088468,
+        "flow_mean_px_s": 137.34896428430386,
+        "flow_median_px_s": 124.40005946670598,
+        "flow_p90_px_s": 189.74517164351332,
+        "flow_spatial_consistency": 0.9994954539186287,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 2590.6987086131817
+      },
+      "motion_regime": "fast",
+      "texture": "checker",
+      "velocity_px_s": [
+        60.0,
+        24.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_0",
+        "best_task_utility": 0.5031625628646033,
+        "best_useful_under_budget": "constant_6",
+        "best_useful_utility": 0.2906925208462869,
+        "budget_feasible": false,
+        "count_objective_task_regret": 0.18369617563727936,
+        "count_winner_task_utility": 0.3194663872273239,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.12146935335156511
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.0,
+        "flow_edge_weighted_px_s": 0.00022695352231353672,
+        "flow_iqr_px_s": 1.264908118034367e-05,
+        "flow_low_motion_fraction": 1.0,
+        "flow_magnitude_entropy": 0.0,
+        "flow_max_px_s": 0.02894806736995601,
+        "flow_mean_px_s": 0.00021190649517222358,
+        "flow_median_px_s": 7.894424068871264e-06,
+        "flow_p90_px_s": 6.542548140723096e-05,
+        "flow_spatial_consistency": 1.0,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 1.4886427003333222e-06
+      },
+      "motion_regime": "static",
+      "texture": "blobs",
+      "velocity_px_s": [
+        0.0,
+        0.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_30",
+        "best_task_utility": 0.8513207882625382,
+        "best_useful_under_budget": "chirp",
+        "best_useful_utility": 0.8006832993047137,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.0,
+        "count_winner_task_utility": 0.8513207882625382,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.017946420876791436
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.008740272972741377,
+        "flow_edge_weighted_px_s": 8.431455290132854,
+        "flow_iqr_px_s": 0.16509062460753832,
+        "flow_low_motion_fraction": 0.079071044921875,
+        "flow_magnitude_entropy": 0.1641982001045976,
+        "flow_max_px_s": 10.326588496300392,
+        "flow_mean_px_s": 7.674847680029061,
+        "flow_median_px_s": 8.419741126980247,
+        "flow_p90_px_s": 8.572318898927154,
+        "flow_spatial_consistency": 0.9999009942782983,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 5.44347957451895
+      },
+      "motion_regime": "slow",
+      "texture": "blobs",
+      "velocity_px_s": [
+        8.0,
+        3.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_0",
+        "best_task_utility": 0.849801749110059,
+        "best_useful_under_budget": "constant_0",
+        "best_useful_utility": 0.826779304741185,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.006541410679163695,
+        "count_winner_task_utility": 0.8432603384308953,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.0
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.016624790362690593,
+        "flow_edge_weighted_px_s": 27.02337095141103,
+        "flow_iqr_px_s": 0.1682598277492584,
+        "flow_low_motion_fraction": 0.087890625,
+        "flow_magnitude_entropy": 0.19112908598131936,
+        "flow_max_px_s": 43.94869631172172,
+        "flow_mean_px_s": 24.243291415290418,
+        "flow_median_px_s": 26.90716129895102,
+        "flow_p90_px_s": 27.05304754935279,
+        "flow_spatial_consistency": 0.9983429528286055,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 67.66878698680469
+      },
+      "motion_regime": "medium",
+      "texture": "blobs",
+      "velocity_px_s": [
+        25.0,
+        10.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_0",
+        "best_task_utility": 0.8438372830498048,
+        "best_useful_under_budget": "constant_0",
+        "best_useful_utility": 0.7978182592786458,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.030319836784347798,
+        "count_winner_task_utility": 0.813517446265457,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.0
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.02013061368025236,
+        "flow_edge_weighted_px_s": 65.29472795491961,
+        "flow_iqr_px_s": 0.23765659336330458,
+        "flow_low_motion_fraction": 0.0922393798828125,
+        "flow_magnitude_entropy": 0.27890681915517557,
+        "flow_max_px_s": 97.5514765962782,
+        "flow_mean_px_s": 57.723661260037446,
+        "flow_median_px_s": 64.61941042427799,
+        "flow_p90_px_s": 64.83248243438157,
+        "flow_spatial_consistency": 0.9976692252401838,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 417.4735109664533
+      },
+      "motion_regime": "fast",
+      "texture": "blobs",
+      "velocity_px_s": [
+        60.0,
+        24.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_0",
+        "best_task_utility": 0.8154543982088709,
+        "best_useful_under_budget": "constant_0",
+        "best_useful_utility": 0.7469847857772153,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.10276468328491073,
+        "count_winner_task_utility": 0.7126897149239602,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.0
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.0,
+        "flow_edge_weighted_px_s": 0.009062054602315742,
+        "flow_iqr_px_s": 0.00013920097971001938,
+        "flow_low_motion_fraction": 1.0,
+        "flow_magnitude_entropy": 0.0,
+        "flow_max_px_s": 0.23449873337823796,
+        "flow_mean_px_s": 0.0067735454996470474,
+        "flow_median_px_s": 2.0484748570697154e-05,
+        "flow_p90_px_s": 0.014009792498471157,
+        "flow_spatial_consistency": 1.0,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 0.0005683634008968046
+      },
+      "motion_regime": "static",
+      "texture": "grid",
+      "velocity_px_s": [
+        0.0,
+        0.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_30",
+        "best_task_utility": 0.5350171330985357,
+        "best_useful_under_budget": "chirp",
+        "best_useful_utility": 0.43966939331052746,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.0,
+        "count_winner_task_utility": 0.5350171330985357,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.0440816231813857
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.010019578720519187,
+        "flow_edge_weighted_px_s": 8.361348874745964,
+        "flow_iqr_px_s": 0.13110497748056282,
+        "flow_low_motion_fraction": 0.0,
+        "flow_magnitude_entropy": 0.0835308788099201,
+        "flow_max_px_s": 9.221066655521112,
+        "flow_mean_px_s": 8.358561176820537,
+        "flow_median_px_s": 8.388896370911084,
+        "flow_p90_px_s": 8.533576166045973,
+        "flow_spatial_consistency": 0.9991607666015625,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 0.099527339307321
+      },
+      "motion_regime": "slow",
+      "texture": "grid",
+      "velocity_px_s": [
+        8.0,
+        3.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_30",
+        "best_task_utility": 0.4782556433230339,
+        "best_useful_under_budget": "constant_0",
+        "best_useful_utility": 0.39513793641290196,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.0,
+        "count_winner_task_utility": 0.4782556433230339,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.04506698805415127
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.0027068222495643334,
+        "flow_edge_weighted_px_s": 26.912937067292305,
+        "flow_iqr_px_s": 0.08775906959412083,
+        "flow_low_motion_fraction": 0.0,
+        "flow_magnitude_entropy": 0.01348459158428839,
+        "flow_max_px_s": 33.11849991113063,
+        "flow_mean_px_s": 26.94245745753005,
+        "flow_median_px_s": 26.926780839300612,
+        "flow_p90_px_s": 27.050306297160994,
+        "flow_spatial_consistency": 0.9999847412109375,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 1.1183497292646256
+      },
+      "motion_regime": "medium",
+      "texture": "grid",
+      "velocity_px_s": [
+        25.0,
+        10.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_0",
+        "best_task_utility": 0.5794525646088874,
+        "best_useful_under_budget": "constant_0",
+        "best_useful_utility": 0.5124026642610923,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.16688756898996565,
+        "count_winner_task_utility": 0.41256499561892174,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.0
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.0047796772304106025,
+        "flow_edge_weighted_px_s": 64.79641035378029,
+        "flow_iqr_px_s": 0.10892720690370439,
+        "flow_low_motion_fraction": 0.0,
+        "flow_magnitude_entropy": 0.04856899016698522,
+        "flow_max_px_s": 78.30162299040963,
+        "flow_mean_px_s": 64.82620007020512,
+        "flow_median_px_s": 64.64586537823695,
+        "flow_p90_px_s": 64.97959494371506,
+        "flow_spatial_consistency": 1.0,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 2.699308196850356
+      },
+      "motion_regime": "fast",
+      "texture": "grid",
+      "velocity_px_s": [
+        60.0,
+        24.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_0",
+        "best_task_utility": 0.4905890627416223,
+        "best_useful_under_budget": "constant_6",
+        "best_useful_utility": 0.3536263247107345,
+        "budget_feasible": false,
+        "count_objective_task_regret": 0.20036446542729003,
+        "count_winner_task_utility": 0.29022459731433226,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.04705595421876202
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.0,
+        "flow_edge_weighted_px_s": 1.1815691325881616e-05,
+        "flow_iqr_px_s": 1.2049541544274103e-05,
+        "flow_low_motion_fraction": 1.0,
+        "flow_magnitude_entropy": 0.0,
+        "flow_max_px_s": 2.5933147503729114e-05,
+        "flow_mean_px_s": 6.178298925515032e-06,
+        "flow_median_px_s": 2.824031717144771e-06,
+        "flow_p90_px_s": 1.5475343754986265e-05,
+        "flow_spatial_consistency": 1.0,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 4.929674773893802e-11
+      },
+      "motion_regime": "static",
+      "texture": "sparse",
+      "velocity_px_s": [
+        0.0,
+        0.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_30",
+        "best_task_utility": 0.8574299700974615,
+        "best_useful_under_budget": "constant_reverse_14",
+        "best_useful_utility": 0.805130104508802,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.0,
+        "count_winner_task_utility": 0.8574299700974615,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.01591739014499438
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.015428978808044436,
+        "flow_edge_weighted_px_s": 8.420098752781858,
+        "flow_iqr_px_s": 8.42859471454166,
+        "flow_low_motion_fraction": 0.450439453125,
+        "flow_magnitude_entropy": 0.20343683568297144,
+        "flow_max_px_s": 10.515957427131184,
+        "flow_mean_px_s": 4.532617261315993,
+        "flow_median_px_s": 8.057249077380671,
+        "flow_p90_px_s": 8.54931879248883,
+        "flow_spatial_consistency": 0.9997216810387181,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 17.275123126961002
+      },
+      "motion_regime": "slow",
+      "texture": "sparse",
+      "velocity_px_s": [
+        8.0,
+        3.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_30",
+        "best_task_utility": 0.848741922458114,
+        "best_useful_under_budget": "constant_0",
+        "best_useful_utility": 0.8177089192070449,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.0,
+        "count_winner_task_utility": 0.848741922458114,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.017417903514515998
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.0,
+        "flow_edge_weighted_px_s": 26.915592646063693,
+        "flow_iqr_px_s": 26.92654715996364,
+        "flow_low_motion_fraction": 0.454071044921875,
+        "flow_magnitude_entropy": 0.3210330869651462,
+        "flow_max_px_s": 28.489791062304576,
+        "flow_mean_px_s": 14.246775241943094,
+        "flow_median_px_s": 26.04762433000949,
+        "flow_p90_px_s": 27.010769254546542,
+        "flow_spatial_consistency": 1.0,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 176.4753945453396
+      },
+      "motion_regime": "medium",
+      "texture": "sparse",
+      "velocity_px_s": [
+        25.0,
+        10.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_0",
+        "best_task_utility": 0.8616509850056857,
+        "best_useful_under_budget": "constant_0",
+        "best_useful_utility": 0.8302058234541199,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.03239487760581605,
+        "count_winner_task_utility": 0.8292561073998697,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.0
+      }
+    },
+    {
+      "flow_features": {
+        "flow_direction_entropy": 0.00855043757093973,
+        "flow_edge_weighted_px_s": 64.75176523723363,
+        "flow_iqr_px_s": 64.6352558022516,
+        "flow_low_motion_fraction": 0.4783477783203125,
+        "flow_magnitude_entropy": 0.34145518789808404,
+        "flow_max_px_s": 131.96276429509604,
+        "flow_mean_px_s": 32.385392309762985,
+        "flow_median_px_s": 32.30889596323737,
+        "flow_p90_px_s": 64.78461594402887,
+        "flow_spatial_consistency": 0.9998501378731567,
+        "flow_valid_fraction": 1.0,
+        "flow_variance_px2_s2": 1021.9941997965759
+      },
+      "motion_regime": "fast",
+      "texture": "sparse",
+      "velocity_px_s": [
+        60.0,
+        24.0
+      ],
+      "winners": {
+        "bandwidth_limit": 15.0,
+        "best_task": "constant_0",
+        "best_task_utility": 0.7887240364846761,
+        "best_useful_under_budget": "constant_0",
+        "best_useful_utility": 0.7392708984145087,
+        "budget_feasible": true,
+        "count_objective_task_regret": 0.06576649837955895,
+        "count_winner_task_utility": 0.7229575381051172,
+        "max_event_count": "constant_30",
+        "useful_selection_task_regret": 0.0
+      }
+    }
+  ],
+  "hypothesis": "different scene texture and natural motion conditions require different optical excitation",
+  "intrinsics": {
+    "cx": 63.5,
+    "cy": 63.5,
+    "fx": 128.0,
+    "fy": 128.0,
+    "height": 128,
+    "width": 128
+  },
+  "limits": {
+    "max_acceleration_rad_s2": 500.0,
+    "max_duration_s": 0.4,
+    "max_speed_rad_s": 40.0,
+    "min_duration_s": 0.4
+  },
+  "motion_regimes_px_s": {
+    "fast": [
+      60.0,
+      24.0
+    ],
+    "medium": [
+      25.0,
+      10.0
+    ],
+    "slow": [
+      8.0,
+      3.0
+    ],
+    "static": [
+      0.0,
+      0.0
+    ]
+  },
+  "seed": 23,
+  "selection_protocol": {
+    "bandwidth_limit_mean_events_per_pixel_per_window": 15.0,
+    "bandwidth_penalty": 0.03,
+    "task_utility": "0.30 repeatability + 0.25 precision + 0.35 recall + 0.10 RANSAC inlier - 0.25 failure_rate",
+    "test_set_selection": false
+  },
+  "status": "controlled_synthetic_pilot_not_paper_evidence",
+  "sweep_config": {
+    "contrast_threshold": 0.15,
+    "device": "cpu",
+    "edge_quantile": 0.75,
+    "event_window_seconds": 0.1,
+    "padding_mode": "border",
+    "prism_angle_deg": 1.0,
+    "temporal_bins": 5,
+    "time_surface_decay_seconds": 0.03333333333333333
+  },
+  "textures": [
+    "checker",
+    "blobs",
+    "grid",
+    "sparse"
+  ],
+  "trajectory_grid": {
+    "chirp": {
+      "amplitude_rad": 0.45,
+      "angular_speed_rad_s": null,
+      "direction": 1,
+      "duration_s": 0.4,
+      "end_frequency_hz": 5.0,
+      "frequency_hz": 1.0,
+      "phase_rad": 0.0,
+      "waveform": "chirp"
+    },
+    "constant_0": {
+      "amplitude_rad": 0.0,
+      "angular_speed_rad_s": 0.0,
+      "direction": 1,
+      "duration_s": 0.4,
+      "end_frequency_hz": null,
+      "frequency_hz": 0.0,
+      "phase_rad": 0.0,
+      "waveform": "constant"
+    },
+    "constant_14": {
+      "amplitude_rad": 0.0,
+      "angular_speed_rad_s": 14.0,
+      "direction": 1,
+      "duration_s": 0.4,
+      "end_frequency_hz": null,
+      "frequency_hz": 0.0,
+      "phase_rad": 0.0,
+      "waveform": "constant"
+    },
+    "constant_30": {
+      "amplitude_rad": 0.0,
+      "angular_speed_rad_s": 30.0,
+      "direction": 1,
+      "duration_s": 0.4,
+      "end_frequency_hz": null,
+      "frequency_hz": 0.0,
+      "phase_rad": 0.0,
+      "waveform": "constant"
+    },
+    "constant_6": {
+      "amplitude_rad": 0.0,
+      "angular_speed_rad_s": 6.0,
+      "direction": 1,
+      "duration_s": 0.4,
+      "end_frequency_hz": null,
+      "frequency_hz": 0.0,
+      "phase_rad": 0.0,
+      "waveform": "constant"
+    },
+    "constant_reverse_14": {
+      "amplitude_rad": 0.0,
+      "angular_speed_rad_s": 14.0,
+      "direction": -1,
+      "duration_s": 0.4,
+      "end_frequency_hz": null,
+      "frequency_hz": 0.0,
+      "phase_rad": 0.0,
+      "waveform": "constant"
+    },
+    "sinusoid": {
+      "amplitude_rad": 0.5,
+      "angular_speed_rad_s": null,
+      "direction": 1,
+      "duration_s": 0.4,
+      "end_frequency_hz": null,
+      "frequency_hz": 3.0,
+      "phase_rad": 0.0,
+      "waveform": "sinusoid"
+    },
+    "triangle": {
+      "amplitude_rad": 0.7,
+      "angular_speed_rad_s": null,
+      "direction": 1,
+      "duration_s": 0.4,
+      "end_frequency_hz": null,
+      "frequency_hz": 4.0,
+      "phase_rad": 0.0,
+      "waveform": "triangle"
+    }
+  }
+}

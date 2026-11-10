@@ -1,0 +1,7 @@
+[
+  {"label": "compressed clock 360-favored (image-wide edge F1, prism 2.25deg/win)", "rate": 1.0, "fps": 480, "start_frame": 345, "until_frame": 370},
+  {"label": "ramp to native", "rate": 1.0, "fps": 60, "ramp_s": 0.2, "duration_s": 0.25},
+  {"label": "native clock saturated driving 0-favored (object edge F1)", "rate": 1.0, "fps": 60, "ramp_s": 0.15, "until_frame": 430},
+  {"label": "dilated clock storm: 180 over-fires, 0 stays clean", "rate": 1.0, "fps": 7.5, "ramp_s": 0.4, "until_frame": 455},
+  {"label": "native calm tail", "rate": 1.0, "fps": 60, "ramp_s": 0.1, "until_frame": 470}
+]

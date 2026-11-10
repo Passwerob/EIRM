@@ -15,6 +15,14 @@ The provided `scripts/fetch_practical_rife.sh` clones that URL into the local
 EIRM `Practical-RIFE/` directory without overwriting an existing checkout.
 Network access is intentionally not attempted by the simulator itself.
 
+The released `train_log/flownet.pkl` checkpoint (24 MB) is stored at
+`weights/practical_rife/train_log/flownet.pkl`. Copy it into a checkout before
+loading the model:
+
+```bash
+cp weights/practical_rife/train_log/flownet.pkl Practical-RIFE/train_log/flownet.pkl
+```
+
 Place a checkout anywhere and invoke the simulator with
 `--practical-rife-root /path/to/Practical-RIFE`. The adapter loads `model.RIFE.Model`
 and calls its direct timestep API when that checkout exposes one. An older checkout
@@ -93,6 +101,14 @@ PYTHONPATH=. python scripts/v2e_runner.py \
 
 `dv-processing` is only required by V2E's optional AEDAT-4 writer. The runner
 uses an import-only compatibility stub when that writer is not selected.
+
+## E2VID checkpoint
+
+The lightweight reconstruction checkpoint is included at
+`weights/e2vid/E2VID_lightweight.pth.tar` (41 MB). It is the pretrained file
+released with [rpg_e2vid](https://github.com/uzh-rpg/rpg_e2vid) (GPL-3). The
+E2VID source tree itself is not vendored. Pass the bundled file with
+`--weights weights/e2vid/E2VID_lightweight.pth.tar`.
 
 ### ESIM reference port
 

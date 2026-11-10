@@ -1,0 +1,16 @@
+[
+  {
+    "label": "camera pass-by, high clock: 360 and 180 remain comparable",
+    "rate": 1.0,
+    "fps": 480.0,
+    "start_frame": 0,
+    "until_frame": 40
+  },
+  {
+    "label": "camera pass-by, dilated clock: fixed 180 storms while 0 stays clean",
+    "rate": 1.0,
+    "fps": 7.5,
+    "ramp_s": 0.4,
+    "until_frame": 84
+  }
+]

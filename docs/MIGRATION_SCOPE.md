@@ -10,11 +10,15 @@ This repository is a source-focused migration of the Project simulator.
   official DVS bridge, validation entry point, and external RIFE fetch helper;
 - `configs/baseline.yaml`: fixed-rotation baseline configuration;
 - `tests/`: physics, event-quality, optional DVS, and optional CUDA coverage;
-- `docs/` and `results/`: current technical report and compact CSV/JSON tables.
+- `docs/` and `results/`: current technical report and compact CSV/JSON tables;
+- `ami_simulator/`, additional `scripts/` and `configs/`, and `NEW/`: the
+  AMI-Simulator research package and active-sensing pilot, without datasets;
+- `weights/` and `KEEP_PAPER_WEIGHTS_DO_NOT_DELETE/`: Practical-RIFE and E2VID
+  checkpoints that fit in git, plus the paper policy checkpoints.
 
 ## Excluded
 
-- Practical-RIFE and DVS-Voltmeter source checkouts and all model weights;
+- Practical-RIFE and DVS-Voltmeter source checkouts;
 - V2E/ESIM installations, DL3DV data, camera calibration assets, and private
   experiment inputs;
 - raw or compensated event HDF5 streams, images, videos, and large output
