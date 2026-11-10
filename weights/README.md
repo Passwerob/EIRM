@@ -20,6 +20,11 @@ released with <https://github.com/uzh-rpg/rpg_e2vid>. That project is GPL-3.
 This repository redistributes the checkpoint only, not the E2VID source tree.
 Pass it with `--weights weights/e2vid/E2VID_lightweight.pth.tar`.
 
+`e2vid/mixed_seed42/best.pt` is the fine-tuned checkpoint from mixed training
+with seed 42. Validation loss was lowest at epoch 11. `config.used.json` and
+`history.json` sit beside it. Seeds 123 and 3407 were not present on disk.
+Use it with `--weights weights/e2vid/mixed_seed42/best.pt`.
+
 ## Paper controllers
 
 The project-trained policy checkpoints stay in

@@ -108,7 +108,9 @@ The lightweight reconstruction checkpoint is included at
 `weights/e2vid/E2VID_lightweight.pth.tar` (41 MB). It is the pretrained file
 released with [rpg_e2vid](https://github.com/uzh-rpg/rpg_e2vid) (GPL-3). The
 E2VID source tree itself is not vendored. Pass the bundled file with
-`--weights weights/e2vid/E2VID_lightweight.pth.tar`.
+`--weights weights/e2vid/E2VID_lightweight.pth.tar`. The seed-42 mixed-training
+fine-tune is `weights/e2vid/mixed_seed42/best.pt`, with its config and loss
+history in the same directory.
 
 ### ESIM reference port
 

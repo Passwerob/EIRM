@@ -55,6 +55,7 @@ The AMI-Simulator research tree is included next to the minimal package:
 | --- | --- | --- |
 | `weights/practical_rife/train_log/flownet.pkl` | 24 MB | [Practical-RIFE](https://github.com/hzwer/Practical-RIFE), MIT |
 | `weights/e2vid/E2VID_lightweight.pth.tar` | 41 MB | [rpg_e2vid](https://github.com/uzh-rpg/rpg_e2vid) pretrained checkpoint, GPL-3 |
+| `weights/e2vid/mixed_seed42/best.pt` | 41 MB | mixed-training fine-tune, seed 42, best validation loss |
 | `KEEP_PAPER_WEIGHTS_DO_NOT_DELETE/*/policy.pt` | 21 KB | paper controllers trained for this project |
 
 After `scripts/fetch_practical_rife.sh`, copy or link the checkpoint into that checkout:

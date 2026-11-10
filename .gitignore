@@ -20,6 +20,8 @@ third_party/
 # Small checkpoints kept in the repository
 !weights/practical_rife/train_log/flownet.pkl
 !weights/e2vid/E2VID_lightweight.pth.tar
+!weights/e2vid/mixed_seed42/best.pt
+!weights/e2vid/mixed_seed42/*.json
 !KEEP_PAPER_WEIGHTS_DO_NOT_DELETE/**/*.pt
 !KEEP_PAPER_WEIGHTS_DO_NOT_DELETE/**/*.json
 
